@@ -1,6 +1,6 @@
 <html ng-app="vsbc14">
     <head>
-        <title>Vytor Calixto</title>
+        <title ng-bind="$state.current.title">Vytor Calixto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
@@ -12,6 +12,7 @@
 
         <link href="css/style.css" rel="stylesheet">
 
+        <!--Angular[JS,UI]-->
         <script src="libs/angular.js/angular.js"></script>
         <script src="libs/angular-ui/angular-ui.js"></script>
         <script src="libs/angular-ui/angular-ui-ieshiv.js"></script>
@@ -19,17 +20,10 @@
         <script src="libs/angular-ui-bootstrap/ui-bootstrap.js"></script>
         <script src="libs/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-animate.js"></script>
-
+        
         <script src="js/app.js"></script>
     </head>
     <body>
-        <ng-include src="'templates/navbar.html'"></ng-include>
-        
-        <div class="animate" ui-view></div>
-        
-        <div class="navbar navbar-default navbar-fixed-bottom center">
-            <p><h5>Powered by Angular.JS, AngularUI, Bootstrap and Font Awesome.
-                Theme by Bootswatch.</h5></p>
-        </div>
+        <div ui-view></div>
     </body>
 </html>

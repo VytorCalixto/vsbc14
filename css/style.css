@@ -3,6 +3,10 @@
     cursor: pointer; 
 }
 
+body{
+    background-color: #2b3e50;
+}
+
 .center-div{
     display: table;
     margin: auto auto;
@@ -23,13 +27,13 @@
 
 #home-header{
     background: url(../img/9.png);
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center center;
 }
 
 #projetos-header{
     background: url(../img/05.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -40,7 +44,7 @@
 
 #contato-header{
     background: url(../img/24.png);
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center center;
 }
 
