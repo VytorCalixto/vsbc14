@@ -63,12 +63,12 @@ body{
 
 #accordion-git{
     background: url(../img/11.jpg);
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 #accordion-pet{
     background: url(../img/13.jpg);
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .animate[ui-view]{
