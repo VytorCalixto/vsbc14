@@ -1,11 +1,24 @@
-var controller = angular.module('controllers', ['services'])
-        
-        .controller('BlogCtrl', function($scope, Posts) {
-            $scope.posts = Posts.all();
+var controller = angular.module('controllers', [])
 
-            $scope.getDate = function(id) {
-                var post = Posts.get(id);
-                var date = new Date(post.date);
-                return date.toLocaleDateString() + ' - ' + date.toLocaleTimeString();
+        .controller('BlogCtrl', function($scope, $http) {
+            $scope.view = false;
+            $http.get('posts/posts.json').success(function(data) {
+                $scope.posts = data;
+            });
+
+            $scope.parseDate = function(date) {
+                var parsedDate = new Date(date);
+                return parsedDate.toLocaleDateString() + ' - ' + parsedDate.toLocaleTimeString();
+            };
+
+            $scope.makePost = function(post) {
+                post.date = new Date().toISOString();
+                post.id = post.date;
+                $scope.posts.push(post);
+//                $http.post('posts/posts.json', $scope.posts).then(function(data) {
+//                    console.log('ok');
+//                });
+                post.title = '';
+                post.content = '';
             };
         });

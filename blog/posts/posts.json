@@ -1,0 +1,21 @@
+[
+    {
+        "date": "2014-06-15T17:24:46.000Z",
+        "id": 2,
+        "title": "Este post tem como objetivo ser um post inútil.",
+        "content": "Este é um post teste. Esse blog precisa de um pouco mais de amor com css. Talvez umas animações nesse ng-repeat dos posts."
+    },
+    {
+        "date": "2014-06-15T17:50:30.000Z",
+        "id": 1,
+        "title": "Está no ar!",
+        "content": "Agora é só tomar cuidado para não estourar a cota de 100MB do Firebase. Acho que o próximo passo é fazer uma interface para publicar os posts. Bem, isso fica para outro dia. Por enquanto estou contente com isso."
+    },
+    {
+        "date": "2014-06-15T17:57:00.000z",
+        "id": 0,
+        "title": "Aviso",
+        "content": "Se este post for o primeiro post da página isso quer dizer que este blog ainda está sob construção. Qualquer contribuição é bem vinda. Dê uma olhada no repositório do github. <br/> Próximos passos: <ul> <li>Interface para criar posts</li> <li>Melhorar css</li> <li>Link nos posts para mais detalhes</li> <li>Animação no ng-repeat dos posts</li> <li>Comentários? (provavelmente Disqus, não quero fazer isso na mão)</li> <li>RSS?</li> <li>Tirar posts do Firebase e usar um arquivo json local.</li> </ul>"
+    }
+]
+

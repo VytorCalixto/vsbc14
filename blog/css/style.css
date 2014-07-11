@@ -3,6 +3,10 @@
     cursor: pointer; 
 }
 
+.nav li a:hover{
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
 body{
      background: #2E3136;
 }
@@ -16,7 +20,13 @@ body{
     background: url(../../img/03.jpg);
     background-size: cover;
     background-position: center center;
-    margin-bottom: 0;
+    margin: 56px 0px;
+    padding: 3px 0px;
+}
+
+#new-post{
+    margin: 56px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 .padding-central{
@@ -61,17 +71,12 @@ body{
     height: 30%;
 }
 
-.blog-content, .blog-nav{
+.blog-content{
     background: #2E3136;
 }
 
 .blog-content{
     padding: 0 0 0 1%;
-}
-
-.blog-nav{
-    height: 100%;
-    padding: 0;
 }
 
 .no-margin{
@@ -88,9 +93,6 @@ body{
 
 .post{
     border: solid 3px;
-}
-
-.post{
     background: #F3F3E9; //#edeeef;
     color: #383A3C;
 }
@@ -102,6 +104,10 @@ body{
 
 .post p{
     font-weight: 500; 
+}
+
+.post-title{
+    margin-bottom: 10px;
 }
 
 .note{
