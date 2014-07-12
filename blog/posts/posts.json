@@ -22,6 +22,12 @@
         "title": "TO DO",
         "date": "2014-07-11T22:41:58.280Z",
         "id": "2014-07-11T22:41:58.280Z"
+    },
+    {
+        "title": "Um novo editor",
+        "content": "<p>\n  O editor de texto agora está 10/10. Tema monokai, fechamento de tags e chaves automático e highlights nas tags. Está aprovado <i class=\"fa fa-thumbs-o-up\"></i>.\n</p>\n<p>\n  Talvez eu ainda faça umas pequenas alterações, pra deixar mais \"zen editing\". Quem sabe?\n</p>\n<p>\n  Ficou tão bom, que estou pensando em abandonar a ideia de escrever os posts em markdown. Talvez eu faça mesmo assim, escrever em markdown é um tanto quanto mais rápido.\n</p>",
+        "date": "2014-07-12T19:54:44.559Z",
+        "id": "2014-07-12T19:54:44.559Z"
     }
 ]
 
