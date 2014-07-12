@@ -3,14 +3,14 @@
     <div id="new-post">
         <h2>Novo Post</h2>
         <input class="form-control" type="text" placeholder="Título" ng-model="post.title">
-        <textarea class="form-control" rows="10" id="textArea" 
+        <textarea class="form-control" rows="10" id="text-area" 
                   ng-model="post.content" placeholder="Texto"></textarea>
         <h6>Não se esqueça de escrever com as tags html!</h6>
         <button type="button" class="btn btn-info" ng-click="makePost(post)">Postar</button>
         <button type="button" class="btn btn-success" ng-click="view = !view">Visualizar</button>
-        <div ng-show="view" class="post">
-            <h3 class="list-group-item-heading post-title">{{post.title}}</h3>
-            <div ng-bind-html="post.content"></div>
+        <div ng-show="view" class="post no-padding">
+            <h3 class="list-group-item-heading post-title" ng-bind-html="post.title"></h3>
+            <div ng-bind-html="post.content" class="post-content"></div>
         </div>
     </div>
 </div>

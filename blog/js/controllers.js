@@ -18,7 +18,8 @@ var controller = angular.module('controllers', [])
 //                $http.post('posts/posts.json', $scope.posts).then(function(data) {
 //                    console.log('ok');
 //                });
-                post.title = '';
-                post.content = '';
+                post.content = JSON.stringify(post);
+//                post.title = '';
+//                post.content = '';
             };
         });
