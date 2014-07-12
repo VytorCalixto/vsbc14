@@ -13,7 +13,9 @@
         <div class="posts">
             <div class="list-group" ng-repeat="post in posts| orderBy:'-date'">
                 <div class="list-group-item post no-padding">
-                    <h3 class="list-group-item-heading post-title" ng-bind-html="post.title"></h3>
+                    <h3 class="list-group-item-heading post-title">
+                        <a ng-bind-html="post.title" ui-sref="post-detail({postId: post.id})"></a>
+                    </h3>
                     <p ng-bind-html="post.content" class="post-content"></p>
                     <div class="note">
                         Publicado em: {{parseDate(post.date)}}

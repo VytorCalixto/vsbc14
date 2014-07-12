@@ -1,10 +1,18 @@
 var controller = angular.module('controllers', [])
 
-        .controller('BlogCtrl', function($scope, $http) {
-            $scope.view = false;
+        .controller('BlogCtrl', function($scope, $http, $stateParams) {
             $http.get('posts/posts.json').success(function(data) {
-                $scope.posts = data;
+                if('postId' in $stateParams){
+                    for(var i in data){
+                        if(data[i].id==$stateParams.postId){
+                            $scope.posts=[data[i]];
+                        }
+                    }
+                }else{
+                    $scope.posts=data;
+                }
             });
+            $scope.view = false;
 
             $scope.parseDate = function(date) {
                 var parsedDate = new Date(date);

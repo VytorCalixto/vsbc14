@@ -5,6 +5,11 @@
     cursor: pointer; 
 }
 
+::selection{
+    background: #DF6936;
+    color: #fff;
+}
+
 body{
      /*background: #2E3136;*/
      background: url(../img/stardust.png);
@@ -48,7 +53,7 @@ body{
     border-bottom: solid 1px ;
 }
 
-#blog-title a{
+#blog-title a, .post-title a{
     font-weight: bolder;
     color: #fff;
 }
