@@ -146,6 +146,10 @@ body{
     font-weight: 500; 
 }
 
+.post-preview{
+    margin-top: 120.5px;
+}
+
 .post-title{
     font-family: 'Waiting for the Sunrise', cursive;
     font-weight: 400;

@@ -1,18 +1,18 @@
 var controller = angular.module('controllers', [])
 
         .controller('BlogCtrl', function($scope, $http, $stateParams) {
+
             $http.get('posts/posts.json').success(function(data) {
-                if('postId' in $stateParams){
-                    for(var i in data){
-                        if(data[i].id==$stateParams.postId){
-                            $scope.posts=[data[i]];
+                if ('postId' in $stateParams) {
+                    for (var i in data) {
+                        if (data[i].id == $stateParams.postId) {
+                            $scope.posts = [data[i]];
                         }
                     }
-                }else{
-                    $scope.posts=data;
+                } else {
+                    $scope.posts = data;
                 }
             });
-            $scope.view = false;
 
             $scope.parseDate = function(date) {
                 var parsedDate = new Date(date);
@@ -30,4 +30,22 @@ var controller = angular.module('controllers', [])
 //                post.title = '';
 //                post.content = '';
             };
+        })
+        .controller('EditorCtrl', function($scope) {
+            $scope.view = false;
+            $scope.editorConfig = {
+                lineNumbers: true,
+                theme: 'monokai',
+                mode: 'text/html',
+                matchBrackets: true,
+                matchTags: true,
+                autoCloseBrackets: true,
+                autoCloseTags: true,
+                placeholder: 'Conteúdo do post',
+                lineWrapping: true
+            };
+            
+            $scope.toggleView = function(){
+                $scope.view = !$scope.view;
+            }
         });

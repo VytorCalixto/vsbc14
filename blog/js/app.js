@@ -1,5 +1,5 @@
 var blog = angular.module('blog', ['ui.bootstrap', 'ui.router', 'ngAnimate',
-    'controllers', 'ngSanitize']);
+    'controllers', 'ngSanitize', 'ui.codemirror']);
 
 blog.run(
         ['$rootScope', '$state', '$stateParams',
