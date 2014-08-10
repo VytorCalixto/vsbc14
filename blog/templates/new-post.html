@@ -3,7 +3,7 @@
 
     <div id="new-post" ng-class="{'col-md-6': view}">
         <h2>Novo Post</h2>
-        <input class="form-control" type="text" placeholder="Título" ng-model="post.title">
+        <input class="form-control new-post-title" type="text" placeholder="Título" ng-model="post.title">
 
         <textarea class="form-control" rows="10" id="text-area" 
                   ng-model="post.content" ui-codemirror="{{editorConfig}}"></textarea>
