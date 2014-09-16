@@ -1,5 +1,5 @@
-var blog = angular.module('blog', ['ui.bootstrap', 'ui.router', 'ngAnimate', 
-    'controllers', 'ngSanitize']);
+var blog = angular.module('blog', ['ui.bootstrap', 'ui.router', 'ngAnimate',
+    'controllers', 'ngSanitize', 'ui.codemirror']);
 
 blog.run(
         ['$rootScope', '$state', '$stateParams',
@@ -13,8 +13,20 @@ blog.run(
 blog.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
             .state('home', {
-                title: 'Home',
+                title: 'Home - ',
                 url: '/home',
+                templateUrl: 'templates/home.html',
+                controller: 'BlogCtrl'
+            })
+            .state('new-post', {
+                title: 'Novo Post - ',
+                url: '/new-post',
+                templateUrl: 'templates/new-post.html',
+                controller: 'BlogCtrl'
+            })
+            .state('post-detail', {
+                url: '/post/:postId',
+                title: ' ',
                 templateUrl: 'templates/home.html',
                 controller: 'BlogCtrl'
             });
