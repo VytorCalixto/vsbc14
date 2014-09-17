@@ -1,0 +1,4 @@
+bower_components/
+!bower_components/components-font-awesome/css/
+!bower_components/components-font-awesome/fonts/
+**/Thumbs.db

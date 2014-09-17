@@ -1,0 +1,28 @@
+{
+  "name": "vsbc14",
+  "version": "1.0.0",
+  "homepage": "https://github.com/VytorCalixto/vsbc14",
+  "authors": [
+    "VytorCalixto <vytorcalixto@gmail.com>"
+  ],
+  "description": "Personal site",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "personal",
+    "website",
+    "one-page"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.2.0"
+  }
+}
