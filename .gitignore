@@ -1,4 +1,6 @@
-bower_components/
-!bower_components/components-font-awesome/css/
-!bower_components/components-font-awesome/fonts/
+bower_components/components-font-awesome/less
+bower_components/components-font-awesome/scss
+bower_components/components-font-awesome/*.json
+bower_components/components-font-awesome/*.md
+bower_components/components-font-awesome/Makefile
 **/Thumbs.db
