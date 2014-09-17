@@ -1,0 +1,16 @@
+<header>
+  <h1>Projetos</h1>
+  <a href="#/home" class="button">Voltar</a>
+</header>
+<article class="center-text">
+  <div ng-if="projetos.length > 0">
+    <h2>Projetos no GitHub</h2>
+    <div ng-repeat="projeto in projetos | orderBy: name">
+      <h3>{{projeto.name}}</h3>
+      <h5>{{projeto.description}}</h5>
+    </div>
+  </div>
+  <div ng-if="projetos.length == 0">
+    <h2>Ops, parece que não há nenhum projeto ainda.</h2>
+  </div>
+</article>

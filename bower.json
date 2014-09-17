@@ -23,6 +23,8 @@
     "tests"
   ],
   "dependencies": {
-    "components-font-awesome": "~4.2.0"
+    "components-font-awesome": "~4.2.0",
+    "angular": "1.2.25",
+    "angular-ui-router": "~0.2.11"
   }
 }

@@ -1,32 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="vsbc14">
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Vytor Calixto">
   <meta name="description" content="Vytor Calixto é estudante de Ciência da Computação na UFPR.">
   <title>VSBC14</title>
+
   <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <div class="background blur"></div>
   <div class="overlay"></div>
-  <header>
-    <h1>VSBC14</h1>
-    <h3>Estudante de Ciência da Computação da UFPR</h3>
-    <ul class="navbar">
-      <li><a href="">Trabalhos</a></li>
-      <li><a href="">Projetos</a></li>
-      <li><a href="">Contato</a></li>
-    </ul>
-    <ul>
-      <li><a href="http://facebook.com/vytorcalixto"><i class="fa fa-2x fa-facebook-square"></i></a></li>
-      <li><a href="http://twitter.com/vytorcalixto"><i class="fa fa-2x fa-twitter-square"></i></a></li>
-      <li><a href="http://instagram.com/vytorcalixto"><i class="fa fa-2x fa-instagram"></i></a></li>
-      <li><a href="http://github.com/vytorcalixto"><i class="fa fa-2x fa-github-square"></i></a></li>
-      <li><a href="http://steamcommunity.com/profiles/76561198045359656"><i class="fa fa-2x fa-steam-square"></i></a></li>
-      <li><a href="https://play.spotify.com/user/12145977184"><i class="fa fa-2x fa-spotify"></i></a></li>
-    </ul>
-  </header>
+  <ui-view></ui-view>
 </body>
 </html>
