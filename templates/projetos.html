@@ -1,16 +1,25 @@
-<header>
+<header class="header-pages">
   <h1>Projetos</h1>
   <a href="#/home" class="button">Voltar</a>
 </header>
-<article class="center-text">
-  <div ng-if="projetos.length > 0">
+<article class="center-text three-quarters center-block">
+  <div ng-if="success" class="block-list">
     <h2>Projetos no GitHub</h2>
-    <div ng-repeat="projeto in projetos | orderBy: name">
-      <h3>{{projeto.name}}</h3>
-      <h5>{{projeto.description}}</h5>
+    <div ng-repeat="projeto in projetos | orderBy: name" class="block">
+      <h3 class="block-title">
+        <a href="{{projeto.html_url}}" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-stack-1x fa-inverse" ng-class="{'fa-code-fork': projeto.fork, 'fa-code': !projeto.fork}"></i>
+          </span>
+          <br/>
+          {{projeto.name}}
+        </a>
+      </h3>
+      <!-- <h4 class="block-content">{{projeto.description}}</h4> -->
     </div>
   </div>
-  <div ng-if="projetos.length == 0">
+  <div ng-if="!success">
     <h2>Ops, parece que não há nenhum projeto ainda.</h2>
   </div>
 </article>

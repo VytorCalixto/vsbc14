@@ -25,9 +25,13 @@ vsbc.config(function($stateProvider, $urlRouterProvider){
 
 vsbc.controller('SiteCtrl',function($scope, $http){
   $scope.projetos = [];
+  $scope.success = true;
 
   $http.get('https://api.github.com/users/vytorcalixto/repos')
             .success(function(data, status, headers, config) {
                 $scope.projetos = data;
+                if($scope.projetos.length === 0){
+                  $scope.success = false;
+                }
             });
 });
