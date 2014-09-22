@@ -197,21 +197,6 @@ a:hover{
   margin: 0 10px 5px 10px;
 }
 
-.block.ng-enter,
-.block.ng-leave {
-  -webkit-transition:0.5s linear all;
-  transition:0.5s linear all;
-}
-
-.block.ng-enter,
-.block.ng-leave.ng-leave-active {
-  opacity:0;
-}
-.block.ng-leave,
-.block.ng-enter.ng-enter-active {
-  opacity:1;
-}
-
 @media (max-width: 760px){
   .block{
     width: 30%;
