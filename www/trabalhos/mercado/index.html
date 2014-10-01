@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br" ng-app>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../../bower_components/components-font-awesome/css/font-awesome.min.css">
-    <script src="../../../bower_components/angular/angular.min.js"></script>
-    <link rel="stylesheet" href="css/mercado.css">
-    <title>Supermercado Algoritmico</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../../bower_components/components-font-awesome/css/font-awesome.min.css">
+  <script src="../../../bower_components/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="css/mercado.css">
+  <title>Supermercado Algoritmico</title>
 </head>
 <body>
-    <ng-include src=" '../../templates/navbar.html' "></ng-include>
-    <header class="center-text full no-margin">
-        <h1 class="no-margin">
-            <i class="fa fa-shopping-cart fa-spin"></i>
-            Supermercado Algoritmico!
-            <i class="fa fa-shopping-cart fa-spin"></i>
-        </h1>
-        <h3 class="no-margin">Um trabalho feito por Israel B. Sant'Anna e Vytor S.B. Calixto</h3>
-    </header>
-    <section class="padding-horizontal center-block">
-        <h1 class="center-text">
-            Nossos produtos:
-        </h1>
-        <a class="produto center-text margin-vertical" href="#">
-            <div class="img">
-                <span class="fa-stack fa-3x">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                </span>
-            </div>
-            <div class="content">
-                <span class="nome">Código fonte</span>
-                <span class="preco">R$ 0</span>
-            </div>
-        </a>
+  <ng-include src=" '../../templates/navbar.html' "></ng-include>
+  <ng-include src="'header-template.html'"></ng-include>
+  <section class="padding-horizontal center-block">
+    <h1 class="center-text">
+      Nossos produtos:
+    </h1>
+    <a class="produto center-text margin-vertical" href="codigo-fonte.html">
+      <div class="img">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="content">
+        <span class="nome">Código fonte</span>
+        <span class="preco">R$ 0</span>
+      </div>
+    </a>
 
-        <a class="produto center-text margin-horizontal margin-vertical" href="#">
-            <div class="img">
-                <span class="fa-stack fa-3x">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-book fa-stack-1x fa-inverse"></i>
-                </span>
-            </div>
-            <div class="content">
-                <span class="nome">Relatórios</span>
-                <span class="preco">R$ 0</span>
-            </div>
-        </a>
+    <a class="produto center-text margin-horizontal margin-vertical" href="relatorios.html">
+      <div class="img">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="content">
+        <span class="nome">Relatórios</span>
+        <span class="preco">R$ 0</span>
+      </div>
+    </a>
 
-        <a class="produto center-text margin-vertical" href="#">
-            <div class="img">
-                <span class="fa-stack fa-3x">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
-                </span>
-            </div>
-            <div class="content">
-                <span class="nome">Logs</span>
-                <span class="preco">R$ 0</span>
-            </div>
-        </a>
-    </section>
+    <a class="produto center-text margin-vertical" href="logs.html">
+      <div class="img">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="content">
+        <span class="nome">Logs</span>
+        <span class="preco">R$ 0</span>
+      </div>
+    </a>
+  </section>
 </body>
 </html>

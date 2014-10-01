@@ -1,0 +1,51 @@
+=================================================
+Inicio da execucao: Supermercado Algoritmico
+Israel Barreto Sant'Anna, Vytor dos Santos Bezerra Calixto
+=================================================
+
+A fila foi iniciada.
+A fila está vazia.
+
+A lista foi iniciada.
+A lista está vazia.
+
+A pilha foi iniciada.
+A pilha está vazia.
+
+Cliente Cliente entrou na fila.
+Veja a fila:
+	[ Cliente ]
+A revista Caras foi empilhada.
+A revista Tititi foi empilhada.
+A revista Isto É foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Isto É foi empilhada.
+A revista Isto É foi empilhada.
+A revista Veja foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Caras foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Caras foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Caras foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Isto É foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Caras foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Tititi foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Caras foi empilhada.
+A revista Veja foi empilhada.
+ERRO: não é possivel empilhar.
+Motivo: a pilha está cheia.
+Cliente Cliente saiu da fila.
+A fila está vazia.
+A revista Veja foi desempilhada.
+Cliente Cliente recebeu a revista Veja
+
+=================================================
+Fim da execução

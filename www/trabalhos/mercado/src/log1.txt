@@ -1,0 +1,59 @@
+=================================================
+Inicio da execucao: Supermercado Algoritmico
+Israel Barreto Sant'Anna, Vytor dos Santos Bezerra Calixto
+=================================================
+
+A fila foi iniciada.
+A fila está vazia.
+
+A lista foi iniciada.
+A lista está vazia.
+
+A pilha foi iniciada.
+A pilha está vazia.
+
+ERRO: não é possível imprimir a fila.
+Motivo: fila vazia.
+Item sabão (x10) foi adicionado a lista de compras.
+Veja a lista:
+	1. sabão x 10
+Item sabão foi removido da lista de compras.
+A lista está vazia.
+ERRO: impossível imprimir lista.
+Motivo: a lista está vazia.
+Item Sabonete (x1) foi adicionado a lista de compras.
+Veja a lista:
+	1. Sabonete x 1
+ERRO: não é possível imprimir a fila.
+Motivo: fila vazia.
+Cliente Wasd entrou na fila.
+Veja a fila:
+	[ Wasd ]
+Cliente Mosd entrou na fila.
+Veja a fila:
+	[ Wasd, Mosd ]
+A revista Super Interessante foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Isto É foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Veja foi empilhada.
+A revista Carta Capital foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Isto É foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Tititi foi empilhada.
+Cliente Wasd saiu da fila.
+Veja a fila:
+	[ Mosd ]
+A revista Tititi foi desempilhada.
+Cliente Wasd recebeu a revista Tititi
+Cliente Mosd saiu da fila.
+A fila está vazia.
+A revista Mundo Estranho foi desempilhada.
+Cliente Mosd recebeu a revista Mundo Estranho
+
+=================================================
+Fim da execução

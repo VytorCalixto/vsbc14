@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>Supermercado Algoritmico - Relatório</title>
+  <link rel="stylesheet" href="../../../bower_components/components-font-awesome/css/font-awesome.min.css">
+  <script src="../../../bower_components/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="css/mercado.css">
+</head>
+<body>
+  <ng-include src="'navbar.html'"></ng-include>
+  <ng-include src="'header-template.html'"></ng-include>
+  <section>
+    <article class="padding margin" id="relatorio">
+      <h1>Relatório</h1>
+
+      <p>Começamos o trabalho fazendo um esqueleto básico da main. Fizemos o TAD lista na implementação duplamente encadeada e a fila com alocação dinâmica.</p>
+
+      <p>Para facilitar os logs, decidimos fazer uma struct e uma série de funções para fazer isso e poupar trabalho.</p>
+
+      <p>
+        Por termos implementado a fila com alocação dinâmica, implementamos a pilha com alocação estática. No trabalho definimos o tamanho máximo como 25.
+      </p>
+
+      <p>
+        Com os TADs prontos, começamos as operaçõs do Sueprmercado Algoritmico. Entretanto, encontramos um problema ao ler os itens da lista ou os nomes dos clientes: a função scanf() não lê espaços! Imagine se um item da lista ou um cliente tivesse mais de um nome?
+      </p>
+
+      <p>
+        Para solucionar isso, implementamos a função lerString() que lê uma string com os espaços. Aproveitamos para deixar a alocação dinâmica da string, algo que o scanf() também não faz.
+      </p>
+
+      <p>
+        Com isso feito, prosseguimos fazendo as operaçõs do mercado, como adicionar um item a lista de compras, remover um item, adicionar um cliente, etc. Mas percebemos que a implementação da lista de compras seria muito mais simples utilizando alocação estática, principalmente para remover um item da mesma. Decidimos então mudar a implementação da lista.
+      </p>
+
+      <p>
+        Por último fizemos a função que entrega aos clientes da fila uma revista.
+      </p>
+
+      <p>
+        Após terminar tudo isso executamos testes, comentamos o código e melhoramos a experiência do usuário com mensagens significativas e cores.
+      </p>
+
+      <p>
+        Veja o histórico de commits do projeto <a href="src/commits.html">aqui</a>.
+      </p>
+    </article>
+  </section>
+</body>
+</html>
