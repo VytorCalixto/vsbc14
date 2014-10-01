@@ -1,0 +1,40 @@
+.block-list{
+    /*background: rgba(44, 161, 74, 0.22);*/
+    border-radius: 5px;
+}
+
+.block-list h2{
+    border-bottom: 1px solid #343434;
+}
+
+.block{
+    border-radius: 3px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+    width: 22%;
+    height: 22%;
+    display: inline-block;
+    background: rgba(80, 144, 118, 0.54);
+    margin: 0 10px 5px 10px;
+}
+
+@media (max-width: 760px){
+    .block{
+        width: 30%;
+    }
+}
+
+@media (max-width: 540px){
+    .block{
+        width: 70%;
+    }
+}
+
+@media (max-width: 320px){
+    .block{
+        width: 100%;
+    }
+}
+
+.block-title a:hover{
+    color: #FF5621 !important;
+}

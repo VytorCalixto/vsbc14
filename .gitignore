@@ -10,4 +10,7 @@ bower_components/**/*.md
 bower_components/**/*.map
 bower_components/**/LICENSE
 
+node_modules/
+npm-debug.log
+
 **/Thumbs.db

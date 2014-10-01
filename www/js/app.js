@@ -19,10 +19,6 @@ vsbc.config(function($stateProvider, $urlRouterProvider){
     .state('contato',{
         url: '/contato',
         templateUrl: 'templates/contato.html'
-    })
-    .state('mercado',{
-        url: '/trabalhos/mercado',
-        templateUrl: 'templates/mercado.html'
     });
 
     $urlRouterProvider.otherwise('/home');
