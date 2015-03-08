@@ -255,18 +255,68 @@ header.smaller h3#subheader {
   background-color: #292B38; }
   .trabalhos a {
     position: relative; }
+    .trabalhos a #mercado:after, .trabalhos a #sondagem:after, .trabalhos a #edificio:after, .trabalhos a #ula:after {
+      padding-top: 80px; }
     .trabalhos a #mercado {
-      padding: 80px 0 80px 0;
       background-image: url(../img/market.jpg);
-      background-size: cover;
-      background-position: bottom center;
+      background-position: bottom center; }
+    .trabalhos a #mercado:after {
+      content: "Supermercado Algorítmico"; }
+    .trabalhos a #sondagem {
+      background-image: url(../img/sondagem.jpg);
+      background-position: top center;
+      color: #555; }
+    .trabalhos a #sondagem:after {
+      content: "Sondagem"; }
+    .trabalhos a #edificio {
+      background-image: url(../img/edificio.jpg);
+      background-position: center center;
+      color: #1F4B5B; }
+    .trabalhos a #edificio:after {
+      content: "Jirobaldo - Parte 1"; }
+    .trabalhos a #ula {
+      background-image: url(../img/mips.gif);
+      background-position: center center;
+      color: #DF4534; }
+    .trabalhos a #ula:after {
+      content: "ULA"; }
+    .trabalhos a div {
+      font-weight: bold;
+      padding: 80px 0 80px 0;
       width: 100%;
       height: 100%;
-      font-size: 30px; }
+      font-size: 30px;
+      background-size: cover; }
   .trabalhos a:hover {
-    color: white;
+    color: inherit;
     text-shadow: 0 8px 8px rgba(0, 0, 0, 0.8) !important;
     font-weight: bolder; }
+    .trabalhos a:hover #mercado:before, .trabalhos a:hover #sondagem:before, .trabalhos a:hover #edificio:before, .trabalhos a:hover #ula:before {
+      width: 100%;
+      height: 100%; }
+    .trabalhos a:hover #mercado:before {
+      content: "Supermercado Algorítmico"; }
+    .trabalhos a:hover #sondagem:before {
+      content: "Sondagem"; }
+    .trabalhos a:hover #edificio:before {
+      content: "Jirobaldo - Parte 1"; }
+    .trabalhos a:hover #ula:before {
+      content: "ULA"; }
+    .trabalhos a:hover div:after {
+      padding-bottom: 80px;
+      color: white;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      -webkit-transition: background-color 0.2s ease-in-out;
+      -moz-transition: background-color 0.2s ease-in-out;
+      -ms-transition: background-color 0.2s ease-in-out;
+      -o-transition: background-color 0.2s ease-in-out;
+      transition: background-color 0.2s ease-in-out; }
+    .trabalhos a:hover div:before {
+      z-index: 10; }
 
 .projetos {
   background-color: #363945;
@@ -276,6 +326,9 @@ header.smaller h3#subheader {
 .social {
   background-color: #DF4534;
   padding-bottom: 50px !important; }
+  .social nav a {
+    font-size: 30px;
+    margin: 0 5px 0 5px; }
 
 .loader {
   width: 90%;

@@ -104,20 +104,85 @@ header.smaller h3#subheader{
     background-color: #292B38;
     a{
         position: relative;
+        #mercado:after, #sondagem:after, #edificio:after, #ula:after{
+            padding-top: 80px;
+        }
         #mercado{
-            padding: 80px 0 80px 0;
             background-image: url(../img/market.jpg);
-            background-size: cover;
             background-position: bottom center;
+        }
+        #mercado:after{
+            content:"Supermercado Algorítmico";
+        }
+        #sondagem{
+            background-image: url(../img/sondagem.jpg);
+            background-position: top center;
+            color: #555;
+        }
+        #sondagem:after{
+            content:"Sondagem";
+        }
+        #edificio{
+            background-image: url(../img/edificio.jpg);
+            background-position: center center;
+            color: #1F4B5B;
+        }
+        #edificio:after{
+            content:"Jirobaldo - Parte 1"
+        }
+        #ula{
+            background-image: url(../img/mips.gif);
+            background-position: center center;
+            color: #DF4534;
+        }
+        #ula:after{
+            content:"ULA";
+        }
+        div{
+            font-weight: bold;
+            padding: 80px 0 80px 0;
             width: 100%;
             height: 100%;
             font-size: 30px;
+            background-size: cover;
         }
     }
     a:hover{
-        color:white;
+        color: inherit;
         text-shadow: 0 8px 8px rgba(0,0,0,.8) !important;
         font-weight: bolder;
+        #mercado:before, #sondagem:before, #edificio:before, #ula:before{
+            width: 100%;
+            height: 100%;
+        }
+        #mercado:before{
+            content:"Supermercado Algorítmico";
+        }
+        #sondagem:before{
+            content:"Sondagem";
+        }
+        #edificio:before{
+            content:"Jirobaldo - Parte 1";
+        }
+        #ula:before{
+            content:"ULA";
+        }
+        div:after{
+            padding-bottom: 80px;
+            color: white;
+            // content:"";
+            // height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,.6);
+            @include transition(background-color, 0.2s, ease-in-out);
+        }
+        div:before{
+            // color: white;
+            z-index: 10;
+        }
     }
 }
 
@@ -130,6 +195,12 @@ header.smaller h3#subheader{
 .social{
     background-color: #DF4534;
     padding-bottom: $main-padding !important;
+    nav{
+        a{
+            font-size: 30px;
+            margin:0 5px 0 5px;
+        }
+    }
 }
 
 .loader {
