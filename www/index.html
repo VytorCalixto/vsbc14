@@ -10,12 +10,86 @@
     <link rel="stylesheet" href="css/style.min.css">
 
     <script src="../bower_components/angular/angular.min.js"></script>
-    <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="../bower_components/classie/classie.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 200,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+
+        function goToTop(){
+            window.scrollTo(0,0);
+        }
+    </script>
 </head>
-<body>
-    <div class="background background-blur"></div>
-    <div class="overlay"></div>
-    <ui-view></ui-view>
+<body ng-controller="SiteCtrl">
+    <header>
+        <h1 id="logo" onclick="goToTop()">VSBC14</h1>
+        <h3 id="subheader">Vytor Calixto, 18, Ciência da Computação</h3>
+    </header>
+    <section class="main">
+        <div class="sobre">
+            <h2 class="no-margin center-text">Sobre Mim</h2>
+            <p>
+                Meu nome é Vytor Calixto, tenho {{getAge()}} anos e vivo na região 
+                metropolitana de Curitiba desde que tinha 1 ano. Sou natural de 
+                Juazeiro do Norte, Ceará.
+            </p><p>
+                Sou formado como Ténico em Informática pelo Instituto Federal do 
+                Paraná, tendo experiência tanto no desenvolvimento de softwares
+                quanto na manutenção de computadores.
+            </p><p>
+                Graduando do curso de Bacharelado em Ciência da Computação e 
+                membro do grupo PET - Computação desde 2014.
+            </p>
+        </div>
+        
+        <div class="trabalhos center-text">
+            <h2 class="no-margin">Trabalhos</h2>
+            <a href="trabalhos/mercado">
+                <div id="mercado">Supermercado Algorítmico</div>
+            </a>
+        </div>
+
+        <div class="projetos center-text">
+            <h2 class="no-margin">Projetos no GitHub</h2>
+            <div ng-repeat="projeto in projetos | orderBy: name" class="block" ng-class-odd="'block-odd'" ng-class-even="'block-even'">
+                <h3 class="block-title">
+                    <a href="{{projeto.html_url}}" targe="_blank">
+                        <span class="fa-stack">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-stack-1x fa-inverse" ng-class="{'fa-code-fork': projeto.fork, 'fa-code': !projeto.fork}"></i>
+                        </span>
+                        <br/>
+                        {{projeto.name}}
+                    </a>
+                </h3>
+            </div>
+        </div>
+        <footer class="social center-text">
+            <nav>
+                  <a target="_blank" href="http://facebook.com/vytorcalixto"><i class="fa fa-2x fa-facebook-official"></i></a>
+                  <a target="_blank" href="http://twitter.com/vytorcalixto"><i class="fa fa-2x fa-twitter-square"></i></a>
+                  <a target="_blank" href="http://github.com/vytorcalixto"><i class="fa fa-2x fa-github"></i></a>
+                  <a target="_blank" href="http://instagram.com/vytorcalixto"><i class="fa fa-2x fa-instagram"></i></a>
+                  <a target="_blank" href="http://steamcommunity.com/profiles/76561198045359656"><i class="fa fa-2x fa-steam-square"></i></a>
+                  <a target="_blank" href="https://play.spotify.com/user/12145977184"><i class="fa fa-2x fa-spotify"></i></a>
+              </nav>
+              <span>vsbc14@inf.ufpr.br</span>
+            <h6>&copy 2015 Vytor Calixto</h6>
+        </footer>
+    </section>
 </body>
 </html>

@@ -6,148 +6,130 @@
 @import "./links";
 @import "./positioning";
 
+$header-height: 120px;
+$subheader-height: 20px;
+$main-padding: 50px;
+
 body{
-    font-family: 'Poiret One', cursive;
+    background-color: #DF4534;
+    font-family: 'Lato', sans-serif;
     margin: 0;
-}
-
-p{
     font-size: 1.3em;
-}
-
-.blur{
-    @include filter( blur(3px) );
-    filter: url(blur.svg#blur);
-}
-
-.background-blur{
-    @include filter( blur(3px) brightness(0.7) contrast(140%) );
-    filter: url(blur.svg#blur) brightness(0.7) contrast(140%);
-}
-
-.background{
-    background: #84B8C9 url(../img/cruzinephoto61.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    image-rendering: optimizeQuality;
-    -ms-interpolation-mode: bicubic;
-    z-index: -2;
-}
-
-@media (min-aspect-ratio: 2/1) and (orientation: landscape){
-    .background{
-        background-size: 100% auto;
-    }
-}
-
-@media (orientation: portrait){
-    .background{
-        background-size: auto 100%;
-    }
-}
-
-.overlay{
-    margin: 0px;
-    padding: 0px;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    background: transparent url(../img/overlay.png);
-    opacity: 0.5;
-    z-index: -1;
+    color:#ddd;
 }
 
 header{
-    text-shadow: 0 1px 1px rgba(0,0,0,.6);
-    text-align: center;
-    color: #76ad80;
-}
-
-header h1{
+    width: 100%;
+    height: $header-height;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #DF4534;//#EEE;
+    color: white; //#707C80;//#76AD80;
     font-family: 'Josefin Slab', serif;
-    font-size: 3.5em;
+    text-align: center;
+    @include transition-pt(height, 0.3s);
+}
+
+header h1#logo{
+    display: inline-block;
+    height: $header-height - $subheader-height;
+    width: 100%;
+    line-height: $header-height - $subheader-height;
+    float: left;
+    font-size: 80px;
     color: inherit;
+    margin: 0;
+    @include transition(all, 0.3s, ease-in-out);
 }
 
-.header-pages h1{
-    margin-top: 10px;
+header h3#subheader{
+    display: inline-block;
+    height: $subheader-height;
+    width: 100%;
+    line-height: $subheader-height;
+    float: left;
+    font-size: 20px;
+    color: inherit;
+    margin: 0;
+    @include transition-pt(all, 0.05s);
 }
 
-header h3{
-    color: #ddd;
+header.smaller{
+    height: 50px;
 }
 
-.header-home{
-    margin-top: 15%;
-    width: 50%;
-    height: 50%;
-    background: rgba(49, 71, 51, 0.28);
-    border-radius: 10px;
-    padding: 0 10px 0 10px;
+header.smaller h1#logo{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    margin-left: 10px;
 }
 
-.header-pages{
-    background: rgba(102, 102, 102, 0.53);
-    padding: 30px;
-    border-bottom: 1px solid #7d8;
+header.smaller h1#logo:hover{
+    cursor: pointer;
+    color: #464A57;
+}
+
+header.smaller h3#subheader{
+    visibility: hidden;
+    width: $subheader-height;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+
+.main{
+    padding: $header-height 0 0 0;
+    .sobre, .trabalhos, .projetos, .social{
+        padding-top: $main-padding;
+        padding-bottom: $main-padding*2;
+        h2{
+            color: white;
+            padding-bottom: $main-padding;
+        }
+    }
+}
+
+.sobre{
+    background-color: #363945;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.trabalhos{
+    background-color: #292B38;
+    a{
+        position: relative;
+        #mercado{
+            padding: 80px 0 80px 0;
+            background-image: url(../img/market.jpg);
+            background-size: cover;
+            background-position: bottom center;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+        }
+    }
+    a:hover{
+        color:white;
+        text-shadow: 0 8px 8px rgba(0,0,0,.8) !important;
+        font-weight: bolder;
+    }
+}
+
+.projetos{
+    background-color: #363945;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .social{
-    font-size: 1em !important;
-}
-
-.social li{
-    display: inline-block !important;
-}
-
-.navbar{
-    font-size: 1.5em;
-    text-transform: uppercase;
-    display: block;
-}
-
-.separator-bottom{
-    border-bottom: solid 1px #383838;
-}
-
-.navbar li{
-    display: inline-block;
-    margin: 0 3px 0 3px;
-}
-
-@media (max-width: 860px){
-    .navbar li{
-        display: block;
-    }
-
-    .header-home{
-        width: 100%;
-        height: 100%;
-        padding: 0;
-    }
-}
-
-.navbar li a{
-    opacity: 0.5;
-    color: #000 ;
-}
-
-.navbar li a:hover{
-    color: #6461ff;
-}
-
-.contato{
-    color: #ddd;
-    /*	background: rgba(0,0,0,0.5);*/
-    border-radius: 5px;
-    margin-top: 5px;
+    background-color: #DF4534;
+    padding-bottom: $main-padding !important;
 }
 
 .loader {
