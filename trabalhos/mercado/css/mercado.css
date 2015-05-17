@@ -1,6 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
-@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:700);
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 .no-margin {
   margin: 0; }
 
@@ -51,14 +49,14 @@
   width: 75%; }
 
 .nav {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Lato', sans-serif;
   padding: 5px 0 5px 3px;
   background: #291e33;
   color: #ddd;
   border-bottom: 1px solid #0d8; }
 
 .nav-title {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Lato', sans-serif;
   float: right;
   margin-right: 5px; }
 
@@ -82,7 +80,7 @@ a:hover {
   -o-transition: all 0.2s ease-in-out; }
 
 body {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   background: #ffa75f; }
 

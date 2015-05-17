@@ -2,10 +2,16 @@ var vsbc = angular.module('vsbc14', []);
 
 vsbc.controller('SiteCtrl',function($scope, $http){
     $scope.projetos = [];
+    $scope.pet = [];
 
     $http.get('https://api.github.com/users/vytorcalixto/repos')
     .success(function (data, status, headers, config) {
         $scope.projetos = data;
+    });
+    
+    $http.get('https://api.github.com/users/petcomputacaoufpr/repos')
+    .success(function (data, status, headers, config) {
+        $scope.pet = data;
     });
 
     $http.get('js/trabalhos.json')
