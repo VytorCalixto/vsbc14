@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Supermercado Algorítmico",
+        "html_url": "trabalhos/mercado",
+        "description": "Trabalho 1 de Algoritmos e Estruturas de Dados II"
+    },
+    {
+        "name": "Sondagem",
+        "html_url": "https://gitlab.c3sl.ufpr.br/vsbc14/sondagem",
+        "description": "Trabalho 1 de Oficina de Programação"
+    },
+    {
+        "name": "Edificio",
+        "html_url": "https://gitlab.c3sl.ufpr.br/vsbc14/edificio",
+        "description": "Trabalho 2 de Oficina de Programação"
+    },
+    {
+        "name": "ULA",
+        "html_url": "https://gitlab.c3sl.ufpr.br/vsbc14/edificio",
+        "description": "Trabalho 2 de Oficina de Programação"
+    }
+]
