@@ -1,0 +1,16 @@
+bower_components/components-font-awesome/less
+bower_components/components-font-awesome/scss
+bower_components/components-font-awesome/Makefile
+bower_components/angular/*.css
+bower_components/angular-ui-router/api
+bower_components/angular-ui-router/src
+
+bower_components/**/*.json
+bower_components/**/*.md
+bower_components/**/*.map
+bower_components/**/LICENSE
+
+node_modules/
+npm-debug.log
+
+**/Thumbs.db

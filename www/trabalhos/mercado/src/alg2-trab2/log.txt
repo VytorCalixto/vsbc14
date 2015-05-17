@@ -1,0 +1,17 @@
+=================================================
+Inicio da execucao: Supermercado Algoritmico 2.0
+Israel Barreto Sant'Anna, Vytor dos Santos Bezerra Calixto
+=================================================
+
+O cliente resolveu participar do sorteio!
+O número escolhido foi 12
+Infelizmente seu número não foi encontrado.
+Número comparações da pesquisa sequencial: 257
+Número comparações da pesquisa binária: 9
+Número comparações do QuickSort utilizando o 1º elemento como pivô: 2523
+Número comparações do QuickSort utilizando a mediana como pivô: 2027
+Número comparações do MergeSort: 2048
+
+
+=================================================
+Fim da execução

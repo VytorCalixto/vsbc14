@@ -1,0 +1,68 @@
+@import "../../../scss/mixin";
+@import "../../../scss/positioning";
+@import "../../../scss/fonts";
+@import "../../../scss/nav";
+@import "../../../scss/links";
+
+$padding-header: 100px;
+
+body{
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    background: #ffa75f ;
+}
+
+header{
+    border-bottom:1px solid #0d8 ;
+    background: #D04640 url(../img/header.png) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: #fff ;
+    padding-top: $padding-header;
+    padding-bottom: $padding-header;
+}
+
+.produto{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.6) ;
+    border-radius: 3px;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    background: #F7F7F7 ;
+    color: #a4452a ;
+    cursor: pointer;
+
+    .content{
+        padding: 0 3px 0 3px;
+
+        .nome{
+            color: #222 ;
+            float: left;
+            font-weight: 100;
+        }
+
+        .preco{
+            padding-top: 3px;
+            float: right;
+            font-size: 0.68em;
+        }
+    }
+}
+
+article{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  background: rgba(223, 223, 223, 0.73);
+  box-shadow: 1px 1px 10px #000;
+}
+
+article a{
+  color: #ff6600;
+  font-weight: bolder;
+}
+
+a:hover{
+  color: #6461ff !important;
+}

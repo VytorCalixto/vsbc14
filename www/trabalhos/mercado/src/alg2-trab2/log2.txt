@@ -1,0 +1,14 @@
+=================================================
+Inicio da execucao: Supermercado Algoritmico 2.0
+Israel Barreto Sant'Anna, Vytor dos Santos Bezerra Calixto
+=================================================
+
+Os algoritmos de busca e ordenação serão executados 10 vezes.
+Média de comparações do QuickSort utilizando o 1º elemento como pivô: 2378
+Média de comparações do QuickSort utilizando a mediana como pivô: 2055
+Média de comparações do MergeSort: 2048
+Média de comparações da pesquisa sequencial: 205
+Média de comparações da pesquisa binária: 8
+
+=================================================
+Fim da execução

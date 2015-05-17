@@ -1,0 +1,99 @@
+=================================================
+Inicio da execucao: Supermercado Algoritmico
+Israel Barreto Sant'Anna, Vytor dos Santos Bezerra Calixto
+=================================================
+
+A fila foi iniciada.
+A fila está vazia.
+
+A lista foi iniciada.
+A lista está vazia.
+
+A pilha foi iniciada.
+A pilha está vazia.
+
+Item Carne (x15) foi adicionado a lista de compras.
+Veja a lista:
+	1. Carne x 15
+Item Garfos plásticos (x50) foi adicionado a lista de compras.
+Veja a lista:
+	1. Carne x 15
+	2. Garfos plásticos x 50
+Item Bolo (x1) foi adicionado a lista de compras.
+Veja a lista:
+	1. Carne x 15
+	2. Garfos plásticos x 50
+	3. Bolo x 1
+Cliente João entrou na fila.
+Veja a fila:
+	[ João ]
+Cliente Clara entrou na fila.
+Veja a fila:
+	[ João, Clara ]
+Cliente Pessoa entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa ]
+Cliente Cliente entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente ]
+Cliente Asd entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente, Asd ]
+Cliente Wasd entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente, Asd, Wasd ]
+Cliente Dsaw entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente, Asd, Wasd, Dsaw ]
+Cliente Mosd entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente, Asd, Wasd, Dsaw, Mosd ]
+Cliente Aleatório entrou na fila.
+Veja a fila:
+	[ João, Clara, Pessoa, Cliente, Asd, Wasd, Dsaw, Mosd, Aleatório ]
+A revista Mundo Estranho foi empilhada.
+A revista Super Interessante foi empilhada.
+A revista Mundo Estranho foi empilhada.
+A revista Carta Capital foi empilhada.
+Cliente João saiu da fila.
+Veja a fila:
+	[ Clara, Pessoa, Cliente, Asd, Wasd, Dsaw, Mosd, Aleatório ]
+A revista Carta Capital foi desempilhada.
+Cliente João recebeu a revista Carta Capital
+Cliente Clara saiu da fila.
+Veja a fila:
+	[ Pessoa, Cliente, Asd, Wasd, Dsaw, Mosd, Aleatório ]
+A revista Mundo Estranho foi desempilhada.
+Cliente Clara recebeu a revista Mundo Estranho
+Cliente Pessoa saiu da fila.
+Veja a fila:
+	[ Cliente, Asd, Wasd, Dsaw, Mosd, Aleatório ]
+A revista Super Interessante foi desempilhada.
+Cliente Pessoa recebeu a revista Super Interessante
+Cliente Cliente saiu da fila.
+Veja a fila:
+	[ Asd, Wasd, Dsaw, Mosd, Aleatório ]
+A revista Mundo Estranho foi desempilhada.
+Cliente Cliente recebeu a revista Mundo Estranho
+Cliente Asd saiu da fila.
+Veja a fila:
+	[ Wasd, Dsaw, Mosd, Aleatório ]
+Cliente Asd não recebeu revista.
+Cliente Wasd saiu da fila.
+Veja a fila:
+	[ Dsaw, Mosd, Aleatório ]
+Cliente Wasd não recebeu revista.
+Cliente Dsaw saiu da fila.
+Veja a fila:
+	[ Mosd, Aleatório ]
+Cliente Dsaw não recebeu revista.
+Cliente Mosd saiu da fila.
+Veja a fila:
+	[ Aleatório ]
+Cliente Mosd não recebeu revista.
+Cliente Aleatório saiu da fila.
+A fila está vazia.
+Cliente Aleatório não recebeu revista.
+
+=================================================
+Fim da execução

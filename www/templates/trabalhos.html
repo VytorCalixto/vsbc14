@@ -1,0 +1,32 @@
+<ng-include src="'templates/navbar.html'"></ng-include>
+<header class="header-pages" ng-class="{'blur': loadingTrab}">
+	<span class="fa-stack fa-3x">
+		<i class="fa fa-circle fa-stack-2x"></i>
+		<i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+	</span>
+	<h1>Trabalhos</h1>
+</header>
+<section class="center-text three-quarters center-block" ng-class="{'blur': loadingTrab}">
+	<div ng-if="trabSuccess" class="block-list">
+		<h2>Trabalhos:</h2>
+		<div ng-repeat="trabalho in trabalhos | orderBy: name" class="block">
+			<h3 class="block-title">
+				<a href="{{trabalho.url}}" tarbeg="_blank">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-stack-1x fa-inverse fa-{{trabalho.icon}}"></i>
+				</span>
+					<br/>
+					{{trabalho.name}}
+				</a>
+			</h3>
+		</div>
+	</div>
+	<div ng-if="!trabSuccess">
+		<h2>Ops, parece que não há nenhum trabalho aqui ainda.
+		</h2>
+	</div>
+</section>
+<div class="loader" ng-show="loadingTrab">
+	Carregando... <i class="fa fa-spinner fa-spin"></i>
+</div>
