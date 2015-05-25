@@ -9,20 +9,21 @@
     
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <title>VSBC14</title>
 </head>
 <body ng-controller="SiteCtrl">
     <header>
         <h1 class="logo">VSBC14</h1>
         <nav class="links">
-            <a href="https://twitter.com/VytorCalixto" class="fa fa-twitter-square fa-2x"></a>
             <a href="https://github.com/VytorCalixto" class="fa fa-github fa-2x"></a>
             <a href="mailto:vsbc14@inf.ufpr.br" class="fa fa-envelope-o fa-2x"></a>
         </nav>
         <p>Vytor Calixto <br/> Estudante de ciência da computação na UFPR</p>
+        <a data-scroll href="#trabalhos" data-options='{"easing": "easeInOutCubic"}'><i class="fa fa-chevron-down margin-vertical"></i></a>
     </header>
     <section class="content">
-        <h1 class="all-caps text-center">Trabalhos</h1>
+        <h1 class="all-caps text-center" id="trabalhos">Trabalhos</h1>
         <div class="half inline-block vertical-top">
             <h2>2014/2</h2>
             <ul>
@@ -98,5 +99,6 @@
         </nav>
         <p>Vytor Calixto <br/> &copy 2015</p>
     </footer>
+    <script>smoothScroll.init()</script>
 </body>
 </html>

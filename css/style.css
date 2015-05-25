@@ -112,3 +112,8 @@ a:hover{
 	color: #8c8b8b;
 	font-size: 18px;
 }
+
+.margin-vertical{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
