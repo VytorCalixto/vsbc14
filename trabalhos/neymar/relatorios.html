@@ -18,7 +18,9 @@
       <p>Depois passamos para as funcionalidades do servidor, criando uma class ServerClient para armazenar as mensagens enviadas de cada cliente que se comunicasse e obter informações de perda e desordenação. Percebemos nesta etapa que não podíamos contar apenas com o servidor para realizar as estatísticas, já que ele não sabia quantas mensagens estavam sendo enviadas e caso recebesse mensagens em sequência de um cliente, nunca acharia erro de perdas (como por exemplo no caso em que 20 mensagens são enviadas, mas só as 10 primeiras são recebidas).</p>
       <p>Para solucionar isso, passamos esta responsabilidade para a Console que fizemos, que possui as informações de quantas máquinas estão enviando mensagens e quantas mensagens cada máquina está enviando. Assim, as informações de perda e desordenação seriam confiáveis.</p>
       <p>Terminado isto, decidimos o que iríamos escrever nos logs para utilizar e rodamos testes corrigindo eventuais erros de conexão de no cálculo do status de perda de pacotes.</p>
-      <p>Os testes seguiram a seguinte metodologia: a quantidade de máquinas varia de 1 a 16 em potência de 2 (1, 2, 4, etc) e as mensagens variam de 64 a 1024, também em potência de 2.</p>
+      <h4>Testes</h4>
+      <p>Foram realizados 10 testes com 1, 16 e 55 máquinas enviando 256 mensagens cada. Para 1 máquina a porcentagem média de perdas foi 36,213% e o desvio padrão 0,37. Para 16 máquina a porcentagem média de perdas foi de 94,552% e o desvio padrão 0,8096. Para 55 máquinas a porcentagem média de perdas foi de 95,664% e o desvio padrão 0,8606. Estes dados se encontram no arquivo <a href="src/neymar/results/estatisticas.txt">estatisticas.txt</a> </p>
+      <p>Os logs também contam como testes. Cada log indica a carga de clientes (de 1 a 16, em potência de 2) e possui informações sobre o envio de 64 a 1024 mensagens por cliente (as mensagens também crescem em base 2).</p>
     </article>
   </section>
 </body>
