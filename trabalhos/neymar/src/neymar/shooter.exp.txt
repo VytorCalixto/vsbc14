@@ -1,0 +1,22 @@
+#!/usr/bin/expect -f
+
+# Hide output
+log_user 0
+
+set user [lindex $argv 0];
+set server [lindex $argv 1];
+set cmd [lindex $argv 2];
+
+spawn ssh -oStrictHostKeyChecking=no "$user\@$server"
+
+expect {
+  "assword:" {
+    send "$env(PASS)\r"
+    exp_continue
+  }
+  "\\$" {
+    send "$cmd\r"
+    sleep 5
+    send "exit\r"
+  }
+}

@@ -1,0 +1,119 @@
+I, [2016-06-04T20:24:04.190552 #12893]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:24:06.737882 #12893]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:24:12.266596 #12893]  INFO -- Console: Enviando 1024 mensagens de 16 clientes
+I, [2016-06-04T20:24:17.983020 #12893]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:24:17.985250 #12893]  INFO -- Console: Cliente criado em h3.c3local
+I, [2016-06-04T20:24:17.987264 #12893]  INFO -- Console: Cliente criado em h4.c3local
+I, [2016-06-04T20:24:17.996165 #12893]  INFO -- Console: Cliente criado em h5.c3local
+I, [2016-06-04T20:24:17.998372 #12893]  INFO -- Console: Cliente criado em h6.c3local
+I, [2016-06-04T20:24:18.001571 #12893]  INFO -- Console: Cliente criado em h7.c3local
+I, [2016-06-04T20:24:18.006004 #12893]  INFO -- Console: Cliente criado em h9.c3local
+I, [2016-06-04T20:24:18.009660 #12893]  INFO -- Console: Cliente criado em h10.c3local
+I, [2016-06-04T20:24:18.013789 #12893]  INFO -- Console: Cliente criado em h16.c3local
+I, [2016-06-04T20:24:18.017030 #12893]  INFO -- Console: Cliente criado em h19.c3local
+I, [2016-06-04T20:24:18.025799 #12893]  INFO -- Console: Cliente criado em h20.c3local
+I, [2016-06-04T20:24:18.030935 #12893]  INFO -- Console: Cliente criado em h21.c3local
+I, [2016-06-04T20:24:18.034680 #12893]  INFO -- Console: Cliente criado em h22.c3local
+I, [2016-06-04T20:24:18.038107 #12893]  INFO -- Console: Cliente criado em h25.c3local
+I, [2016-06-04T20:24:18.043488 #12893]  INFO -- Console: Cliente criado em h26.c3local
+I, [2016-06-04T20:24:18.053396 #12893]  INFO -- Console: Cliente criado em h29.c3local
+I, [2016-06-04T20:24:18.053574 #12893]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:24:20.739091 #12893]  INFO -- Console: STATUS: O servidor recebeu 64 mensagens de 13 máquinas
+I, [2016-06-04T20:24:20.739235 #12893]  INFO -- Console: 3 máquinas perderam todas as mensagens
+I, [2016-06-04T20:24:20.740402 #12893]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 66.89%
+I, [2016-06-04T20:24:20.740538 #12893]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:24:29.001668 #13039]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:24:31.554870 #13039]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:24:38.193959 #13039]  INFO -- Console: Enviando 2048 mensagens de 16 clientes
+I, [2016-06-04T20:24:40.298171 #13039]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:24:40.300363 #13039]  INFO -- Console: Cliente criado em h3.c3local
+I, [2016-06-04T20:24:40.302557 #13039]  INFO -- Console: Cliente criado em h4.c3local
+I, [2016-06-04T20:24:40.313088 #13039]  INFO -- Console: Cliente criado em h5.c3local
+I, [2016-06-04T20:24:40.316639 #13039]  INFO -- Console: Cliente criado em h6.c3local
+I, [2016-06-04T20:24:40.319980 #13039]  INFO -- Console: Cliente criado em h7.c3local
+I, [2016-06-04T20:24:40.323038 #13039]  INFO -- Console: Cliente criado em h9.c3local
+I, [2016-06-04T20:24:40.325572 #13039]  INFO -- Console: Cliente criado em h10.c3local
+I, [2016-06-04T20:24:40.342165 #13039]  INFO -- Console: Cliente criado em h16.c3local
+I, [2016-06-04T20:24:40.345858 #13039]  INFO -- Console: Cliente criado em h19.c3local
+I, [2016-06-04T20:24:40.355541 #13039]  INFO -- Console: Cliente criado em h20.c3local
+I, [2016-06-04T20:24:40.358814 #13039]  INFO -- Console: Cliente criado em h21.c3local
+I, [2016-06-04T20:24:40.362397 #13039]  INFO -- Console: Cliente criado em h22.c3local
+I, [2016-06-04T20:24:40.366003 #13039]  INFO -- Console: Cliente criado em h25.c3local
+I, [2016-06-04T20:24:40.383556 #13039]  INFO -- Console: Cliente criado em h26.c3local
+I, [2016-06-04T20:24:40.387644 #13039]  INFO -- Console: Cliente criado em h29.c3local
+I, [2016-06-04T20:24:40.387804 #13039]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:24:43.494901 #13039]  INFO -- Console: STATUS: O servidor recebeu 128 mensagens de 13 máquinas
+I, [2016-06-04T20:24:43.495059 #13039]  INFO -- Console: 3 máquinas perderam todas as mensagens
+I, [2016-06-04T20:24:43.496222 #13039]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 83.25%
+I, [2016-06-04T20:24:43.496347 #13039]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:24:50.822377 #13174]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:24:53.369116 #13174]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:24:57.506847 #13174]  INFO -- Console: Enviando 4096 mensagens de 16 clientes
+I, [2016-06-04T20:24:59.494448 #13174]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:24:59.496894 #13174]  INFO -- Console: Cliente criado em h3.c3local
+I, [2016-06-04T20:24:59.499854 #13174]  INFO -- Console: Cliente criado em h4.c3local
+I, [2016-06-04T20:24:59.509922 #13174]  INFO -- Console: Cliente criado em h5.c3local
+I, [2016-06-04T20:24:59.513713 #13174]  INFO -- Console: Cliente criado em h6.c3local
+I, [2016-06-04T20:24:59.517143 #13174]  INFO -- Console: Cliente criado em h7.c3local
+I, [2016-06-04T20:24:59.520456 #13174]  INFO -- Console: Cliente criado em h9.c3local
+I, [2016-06-04T20:24:59.525851 #13174]  INFO -- Console: Cliente criado em h10.c3local
+I, [2016-06-04T20:24:59.532190 #13174]  INFO -- Console: Cliente criado em h16.c3local
+I, [2016-06-04T20:24:59.534913 #13174]  INFO -- Console: Cliente criado em h19.c3local
+I, [2016-06-04T20:24:59.543849 #13174]  INFO -- Console: Cliente criado em h20.c3local
+I, [2016-06-04T20:24:59.548750 #13174]  INFO -- Console: Cliente criado em h21.c3local
+I, [2016-06-04T20:24:59.566785 #13174]  INFO -- Console: Cliente criado em h22.c3local
+I, [2016-06-04T20:24:59.582140 #13174]  INFO -- Console: Cliente criado em h25.c3local
+I, [2016-06-04T20:24:59.585125 #13174]  INFO -- Console: Cliente criado em h26.c3local
+I, [2016-06-04T20:24:59.588224 #13174]  INFO -- Console: Cliente criado em h29.c3local
+I, [2016-06-04T20:24:59.588332 #13174]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:25:02.368946 #13174]  INFO -- Console: STATUS: O servidor recebeu 256 mensagens de 16 máquinas
+I, [2016-06-04T20:25:02.369237 #13174]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 95.17%
+I, [2016-06-04T20:25:02.369294 #13174]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:25:28.571121 #13312]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:25:31.118252 #13312]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:25:36.806191 #13312]  INFO -- Console: Enviando 8192 mensagens de 16 clientes
+I, [2016-06-04T20:25:38.833152 #13312]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:25:38.836139 #13312]  INFO -- Console: Cliente criado em h3.c3local
+I, [2016-06-04T20:25:38.838522 #13312]  INFO -- Console: Cliente criado em h4.c3local
+I, [2016-06-04T20:25:38.847384 #13312]  INFO -- Console: Cliente criado em h5.c3local
+I, [2016-06-04T20:25:38.849973 #13312]  INFO -- Console: Cliente criado em h6.c3local
+I, [2016-06-04T20:25:38.852347 #13312]  INFO -- Console: Cliente criado em h7.c3local
+I, [2016-06-04T20:25:38.855457 #13312]  INFO -- Console: Cliente criado em h9.c3local
+I, [2016-06-04T20:25:38.858438 #13312]  INFO -- Console: Cliente criado em h10.c3local
+I, [2016-06-04T20:25:38.865465 #13312]  INFO -- Console: Cliente criado em h16.c3local
+I, [2016-06-04T20:25:38.871387 #13312]  INFO -- Console: Cliente criado em h19.c3local
+I, [2016-06-04T20:25:38.884038 #13312]  INFO -- Console: Cliente criado em h20.c3local
+I, [2016-06-04T20:25:38.890408 #13312]  INFO -- Console: Cliente criado em h21.c3local
+I, [2016-06-04T20:25:38.895691 #13312]  INFO -- Console: Cliente criado em h22.c3local
+I, [2016-06-04T20:25:38.899614 #13312]  INFO -- Console: Cliente criado em h25.c3local
+I, [2016-06-04T20:25:38.907981 #13312]  INFO -- Console: Cliente criado em h26.c3local
+I, [2016-06-04T20:25:38.919843 #13312]  INFO -- Console: Cliente criado em h29.c3local
+I, [2016-06-04T20:25:38.920027 #13312]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:25:43.819521 #13312]  INFO -- Console: STATUS: O servidor recebeu 512 mensagens de 13 máquinas
+I, [2016-06-04T20:25:43.819680 #13312]  INFO -- Console: 3 máquinas perderam todas as mensagens
+I, [2016-06-04T20:25:43.820843 #13312]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 95.47%
+I, [2016-06-04T20:25:43.821022 #13312]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:25:48.114791 #13447]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:25:50.665079 #13447]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:25:54.723941 #13447]  INFO -- Console: Enviando 16384 mensagens de 16 clientes
+I, [2016-06-04T20:25:56.833342 #13447]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:25:56.837075 #13447]  INFO -- Console: Cliente criado em h3.c3local
+I, [2016-06-04T20:25:56.839391 #13447]  INFO -- Console: Cliente criado em h4.c3local
+I, [2016-06-04T20:25:56.848244 #13447]  INFO -- Console: Cliente criado em h5.c3local
+I, [2016-06-04T20:25:56.851665 #13447]  INFO -- Console: Cliente criado em h6.c3local
+I, [2016-06-04T20:25:56.855010 #13447]  INFO -- Console: Cliente criado em h7.c3local
+I, [2016-06-04T20:25:56.857818 #13447]  INFO -- Console: Cliente criado em h9.c3local
+I, [2016-06-04T20:25:56.862370 #13447]  INFO -- Console: Cliente criado em h10.c3local
+I, [2016-06-04T20:25:56.867096 #13447]  INFO -- Console: Cliente criado em h16.c3local
+I, [2016-06-04T20:25:56.874736 #13447]  INFO -- Console: Cliente criado em h19.c3local
+I, [2016-06-04T20:25:56.886324 #13447]  INFO -- Console: Cliente criado em h20.c3local
+I, [2016-06-04T20:25:56.891263 #13447]  INFO -- Console: Cliente criado em h21.c3local
+I, [2016-06-04T20:25:56.894849 #13447]  INFO -- Console: Cliente criado em h22.c3local
+I, [2016-06-04T20:25:56.898678 #13447]  INFO -- Console: Cliente criado em h25.c3local
+I, [2016-06-04T20:25:56.903108 #13447]  INFO -- Console: Cliente criado em h26.c3local
+I, [2016-06-04T20:25:56.909337 #13447]  INFO -- Console: Cliente criado em h29.c3local
+I, [2016-06-04T20:25:56.909551 #13447]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:26:01.053685 #13447]  INFO -- Console: STATUS: O servidor recebeu 1024 mensagens de 15 máquinas
+I, [2016-06-04T20:26:01.053839 #13447]  INFO -- Console: 1 máquinas perderam todas as mensagens
+I, [2016-06-04T20:26:01.055182 #13447]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 97.81%
+I, [2016-06-04T20:26:01.055312 #13447]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%

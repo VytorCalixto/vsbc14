@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>Artilharia UDP - Relatório</title>
+  <link rel="stylesheet" href="../../../bower_components/components-font-awesome/css/font-awesome.min.css">
+  <script src="../../../bower_components/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="css/neymar.css">
+</head>
+<body>
+  <ng-include src="'navbar.html'"></ng-include>
+  <ng-include src="'header-template.html'"></ng-include>
+  <section>
+    <article class="padding margin" id="relatorio">
+      <h1>Relatório</h1>
+      <p>Começamos o trabalho criando um servidor e cliente básicos em Ruby, para termos um esqueleto para trabalhar sobre. Feito isso, implmentamos no cliente como enviar as mensagens e pegamos as mensagens que seriam enviadas.</p>
+      <p>Criamos um script para automatizar os testes, que logava em máquinas listadas em um arquivo e rodava o cliente em todas elas para atingir um mesmo servidor. Este script estava escrito em shell e chamava o cliente feito em Ruby. Convertemos a função do script para uma "console" em Ruby que fizemos que iria realizar a tarefa de bombardear o servidor e se comunicar com ele para obter informações e fazê-lo parar. A console também verifica quais máquinas no arquivo estão acessíveis na rede para uso durante o bombardeio.</p>
+      <p>Depois passamos para as funcionalidades do servidor, criando uma class ServerClient para armazenar as mensagens enviadas de cada cliente que se comunicasse e obter informações de perda e desordenação. Percebemos nesta etapa que não podíamos contar apenas com o servidor para realizar as estatísticas, já que ele não sabia quantas mensagens estavam sendo enviadas e caso recebesse mensagens em sequência de um cliente, nunca acharia erro de perdas (como por exemplo no caso em que 20 mensagens são enviadas, mas só as 10 primeiras são recebidas).</p>
+      <p>Para solucionar isso, passamos esta responsabilidade para a Console que fizemos, que possui as informações de quantas máquinas estão enviando mensagens e quantas mensagens cada máquina está enviando. Assim, as informações de perda e desordenação seriam confiáveis.</p>
+      <p>Terminado isto, decidimos o que iríamos escrever nos logs para utilizar e rodamos testes corrigindo eventuais erros de conexão de no cálculo do status de perda de pacotes.</p>
+      <p>Os testes seguiram a seguinte metodologia: a quantidade de máquinas varia de 1 a 16 em potência de 2 (1, 2, 4, etc) e as mensagens variam de 64 a 1024, também em potência de 2.</p>
+    </article>
+  </section>
+</body>
+</html>

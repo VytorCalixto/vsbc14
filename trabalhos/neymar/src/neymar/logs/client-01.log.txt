@@ -1,0 +1,40 @@
+I, [2016-06-04T20:11:03.808674 #11769]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:11:06.370698 #11769]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:11:08.534320 #11769]  INFO -- Console: Enviando 64 mensagens de 1 clientes
+I, [2016-06-04T20:11:10.722519 #11769]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:11:10.722629 #11769]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:11:18.369415 #11769]  INFO -- Console: STATUS: O servidor recebeu 64 mensagens de 1 máquinas
+I, [2016-06-04T20:11:18.369730 #11769]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 0.0%
+I, [2016-06-04T20:11:18.369918 #11769]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:11:52.950173 #11800]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:11:55.500613 #11800]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:12:00.713794 #11800]  INFO -- Console: Enviando 128 mensagens de 1 clientes
+I, [2016-06-04T20:12:02.949358 #11800]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:12:02.949516 #11800]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:12:06.955287 #11800]  INFO -- Console: STATUS: O servidor recebeu 128 mensagens de 1 máquinas
+I, [2016-06-04T20:12:06.955615 #11800]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 0.0%
+I, [2016-06-04T20:12:06.955749 #11800]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:12:13.330179 #11826]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:12:15.890413 #11826]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:12:22.169223 #11826]  INFO -- Console: Enviando 256 mensagens de 1 clientes
+I, [2016-06-04T20:12:24.265044 #11826]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:12:24.265267 #11826]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:12:27.520417 #11826]  INFO -- Console: STATUS: O servidor recebeu 256 mensagens de 1 máquinas
+I, [2016-06-04T20:12:27.520561 #11826]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 36.72%
+I, [2016-06-04T20:12:27.520607 #11826]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:12:32.672964 #11841]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:12:35.219150 #11841]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:12:38.377977 #11841]  INFO -- Console: Enviando 512 mensagens de 1 clientes
+I, [2016-06-04T20:12:40.613168 #11841]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:12:40.613356 #11841]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:12:47.652933 #11841]  INFO -- Console: STATUS: O servidor recebeu 512 mensagens de 1 máquinas
+I, [2016-06-04T20:12:47.653111 #11841]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 67.97%
+I, [2016-06-04T20:12:47.653180 #11841]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
+I, [2016-06-04T20:12:52.324631 #11866]  INFO -- Console: Verificando disponibilidade de 70 possíveis clientes
+I, [2016-06-04T20:12:54.879777 #11866]  INFO -- Console: 55 máquinas disponíveis
+I, [2016-06-04T20:12:59.412961 #11866]  INFO -- Console: Enviando 1024 mensagens de 1 clientes
+I, [2016-06-04T20:13:03.018690 #11866]  INFO -- Console: Cliente criado em h1.c3local
+I, [2016-06-04T20:13:03.019092 #11866]  INFO -- Console: As mensagens foram enviadas
+I, [2016-06-04T20:13:06.226004 #11866]  INFO -- Console: STATUS: O servidor recebeu 1024 mensagens de 1 máquinas
+I, [2016-06-04T20:13:06.226363 #11866]  INFO -- Console: STATUS: Porcentagem total de mensagens perdidas: 84.08%
+I, [2016-06-04T20:13:06.226502 #11866]  INFO -- Console: STATUS: Porcentagem total de mensagens desordenadas: 0.0%
