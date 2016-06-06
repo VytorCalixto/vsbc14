@@ -6,7 +6,7 @@
     <meta name="description" content="Vytor Calixto é estudante de Ciência da Computação na UFPR.">
     <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="js/app.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
@@ -27,7 +27,7 @@
         <div class="half inline-block vertical-top">
             <h2>2014/2</h2>
             <ul>
-                <li ng-repeat="p in trabalhos">
+                <li ng-repeat="p in trabalhos" ng-show="p.year=='2014/2'">
                     <a href="{{p.html_url}}">{{p.name}}</a>
                     - {{p.description}}
                 </li>
@@ -36,14 +36,27 @@
         <div class="half inline-block vertical-top">
             <h2>2015/1</h2>
             <ul>
-                <li>
-                    Killer
+                <li ng-repeat="p in trabalhos" ng-show="p.year=='2015/1'">
+                    <a href="{{p.html_url}}">{{p.name}}</a>
+                    - {{p.description}}
                 </li>
-                <li>
-                    Intel
+            </ul>
+        </div>
+        <div class="half inline-block vertical-top">
+            <h2>2015/2</h2>
+            <ul>
+                <li ng-repeat="p in trabalhos" ng-show="p.year=='2015/2'">
+                    <a href="{{p.html_url}}">{{p.name}}</a>
+                    - {{p.description}}
                 </li>
-                <li>
-                    Arvres
+            </ul>
+        </div>
+        <div class="half inline-block vertical-top">
+            <h2>2016/1</h2>
+            <ul>
+                <li ng-repeat="p in trabalhos" ng-show="p.year=='2016/1'">
+                    <a href="{{p.html_url}}">{{p.name}}</a>
+                    - {{p.description}}
                 </li>
             </ul>
         </div>
