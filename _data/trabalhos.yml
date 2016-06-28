@@ -1,0 +1,70 @@
+-
+  name: "Supermercado Algorítmico"
+  html_url: "trabalhos/mercado"
+  description: "Trabalho 1 de Algoritmos e Estruturas de Dados II"
+  year: "2014/2"
+-
+  name: "Sondagem"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/sondagem"
+  description: "Trabalho 1 de Oficina de Programação"
+  year: "2014/2"
+-
+  name: "Edificio"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/edificio"
+  description: "Trabalho 2 de Oficina de Programação"
+  year: "2014/2"
+-
+  name: "ULA"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/edificio"
+  description: "Trabalho final de Projetos Digitais e Microprocessadores"
+  year: "2014/2"
+-
+  name: "Killer"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/killer"
+  description: "Trabalho de Software Básico: Interface Serial"
+  year: "2015/1"
+-
+  name: "Intelnship"
+  html_url: ""
+  description: "Trabalho de Arquitetura e Organização de computadores: Project of a pipeline processor with RAW data hazard detector and cache memory as a conclusion of the intel internship"
+  year: "2015/1"
+-
+  name: "Arvres"
+  html_url: "https://github.com/VytorCalixto/arvres"
+  description: "Trabalho de Algoritmos e Estruturas de Dados III da UFPR"
+  year: "2015/1"
+-
+  name: "Caco"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/Caco"
+  description: "Trabalho 1 de redes 1"
+  year: "2015/2"
+-
+  name: "UnderPressure"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/UnderPressure"
+  description: "Trabalho 3 de Redes 1: LZW"
+  year: "2015/2"
+-
+  name: "Anti-Life Equation"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/ale"
+  description: "Trabalho 1 de ICC"
+  year: "2015/2"
+-
+  name: "T800"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/T800"
+  description: "Trabalho 1 de Robótica"
+  year: "2015/2"
+-
+  name: "Facenet"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/Facenet"
+  description: "Trabalho 1 de Técnicas Alternativas de Programação"
+  year: "2015/2"
+-
+  name: "ICC"
+  html_url: "https://gitlab.c3sl.ufpr.br/vsbc14/ICC"
+  description: "Repositório com programas para o estudo de Introdução a Computação Científica"
+  year: "2015/2"
+-
+  name: "Neymar"
+  html_url: "trabalhos/neymar"
+  description: "Trabalho 1 de Redes II - Artilharia UDP"
+  year: "2016/1"

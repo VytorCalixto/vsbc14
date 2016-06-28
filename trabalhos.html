@@ -1,120 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-br" ng-app="vsbc14">
-<head>
-    <meta charset="UTF-8">
-    <title>VSBC14 - Trabalhos</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
+---
+layout: default
+title: Trabalhos
+---
 
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="js/particles/particles.js"></script>
-</head>
-<body ng-controller="SiteCtrl">
-    <header>
-        <div class="container">
-            <h1 class="logo">TRABALHOS<span class="blinking-cursor">_</span></h1>
-        </div>
-        <a class="chevron" data-scroll href="#menu" data-options='{"easing": "easeInOutCubic"}'><i class="fa fa-chevron-down margin-vertical"></i></a>
-        <div id="particles-js"></div>
-    </header>
-    <nav id="menu" class="menu">
-        <a href="/vsbc14/">Início</a>
-        <a href="trabalhos.html">Trabalhos</a>
-        <a href="truerandom/">TrueRandom</a>
-    </nav>
-    <section class="content">
-        <div class="half inline-block vertical-top">
-            <h2>2014/2</h2>
-            <ul>
-                <li ng-repeat="p in trabalhos" ng-show="p.year=='2014/2'">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-            </ul>
-        </div>
-        <div class="half inline-block vertical-top">
-            <h2>2015/1</h2>
-            <ul>
-                <li ng-repeat="p in trabalhos" ng-show="p.year=='2015/1'">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-            </ul>
-        </div>
-        <div class="half inline-block vertical-top">
-            <h2>2015/2</h2>
-            <ul>
-                <li ng-repeat="p in trabalhos" ng-show="p.year=='2015/2'">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-            </ul>
-        </div>
-        <div class="half inline-block vertical-top">
-            <h2>2016/1</h2>
-            <ul>
-                <li ng-repeat="p in trabalhos" ng-show="p.year=='2016/1'">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-            </ul>
-        </div>
-        <hr class="line">
-        <div class="half inline-block vertical-top">
-            <h2>Github</h2>
-            <ul>
-                <li ng-repeat="p in projetos">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-            </ul>
-        </div>
-        <div class="half inline-block vertical-top">
-            <h2>PET Computação</h2>
-            <ul>
-                <li ng-repeat="p in pet">
-                    <a href="{{p.html_url}}">{{p.name}}</a>
-                    - {{p.description}}
-                </li>
-                <li>
-                    <a href="https://gitlab.c3sl.ufpr.br/pet/Geoloc">Geoloc</a>
-                    - Aplicativo android de geolocalização no Campus III da UFPR
-                </li>
-                <li>
-                    <a href="http://pet.inf.ufpr.br/protocalouros/">Oficina de Vestibulandos</a>
-                    - Oficina de programação, Ciência da Computação e Informática Biomédica para vestibulandos
-                </li>
-                <li>
-                    <a href="https://gitlab.c3sl.ufpr.br/pet/fmvc">FrameworkMVC</a>
-                    - Framework PHP para projetos MVC
-                </li>
-                <li>
-                    <a href="https://gitlab.c3sl.ufpr.br/pet/treinamentoGit/wikis/home">Treinamento em Git</a>
-                    - Wiki com treinamento básico em git e gitlab
-                </li>
-            </ul>
-        </div>
-        <hr class="line"/>
-    </section>
-    <footer class="text-center">
-        <nav class="links">
-            <a href="https://facebook.com/VytorCalixto" class="fa fa-facebook-official fa-lg"></a>
-            <a href="https://twitter.com/VytorCalixto" class="fa fa-twitter-square fa-lg"></a>
-            <a href="https://github.com/VytorCalixto" class="fa fa-github fa-lg"></a>
-            <a href="https://gitlab.c3sl.ufpr.br/u/vsbc14" class="fa fa-git-square fa-lg"></a>
-            <a href="https://medium.com/@vytorcalixto" class="fa fa-medium fa-lg"></a>
-            <a href="https://soundcloud.com/via-capital" class="fa fa-soundcloud fa-lg"></a>
-            <a href="https://play.spotify.com/artist/4QgIU2WnvxNiJAlOP29Ru2" class="fa fa-spotify fa-lg"></a>
-        </nav>
-        <p>Feito com <span class="fa" aria-hidden="true">&#xf004;</span> por Vytor Calixto</p>
-    </footer>
-    <script>
-        smoothScroll.init();
-        particlesJS.load('particles-js', 'js/particles/particles.json', function() {
-          console.log('callback - particles.js config loaded');
-        });
-    </script>
-</body>
-</html>
+<section class="content">
+    <div class="half inline-block vertical-top">
+        <h2>2014/2</h2>
+        <ul>
+            {% for t in site.data.trabalhos %}
+            {% if t.year == '2014/2' %}
+            <li>
+                <a href="{{ t.html_url }}">{{ t.name }}</a>
+                - {{ t.description }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="half inline-block vertical-top">
+        <h2>2015/1</h2>
+        <ul>
+            {% for t in site.data.trabalhos %}
+            {% if t.year == '2015/1' %}
+            <li>
+                <a href="{{ t.html_url }}">{{ t.name }}</a>
+                - {{ t.description }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="half inline-block vertical-top">
+        <h2>2015/2</h2>
+        <ul>
+            {% for t in site.data.trabalhos %}
+            {% if t.year == '2015/2' %}
+            <li>
+                <a href="{{ t.html_url }}">{{ t.name }}</a>
+                - {{ t.description }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="half inline-block vertical-top">
+        <h2>2016/1</h2>
+        <ul>
+            {% for t in site.data.trabalhos %}
+            {% if t.year == '2016/1' %}
+            <li>
+                <a href="{{ t.html_url }}">{{ t.name }}</a>
+                - {{ t.description }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <hr class="line">
+</section>

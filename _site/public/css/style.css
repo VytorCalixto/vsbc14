@@ -1,0 +1,139 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway|VT323';
+html, body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  height: 100%;
+  font-size: 1.2em; }
+
+a {
+  color: #0f9e2e;
+  text-decoration: none; }
+  a:hover {
+    color: #85f49e; }
+
+header {
+  box-sizing: border-box;
+  background: #343939;
+  text-align: center;
+  min-height: 100%;
+  color: #ddd;
+  margin: 0; }
+  header a {
+    color: #28eb53;
+    background: none; }
+  header a:hover {
+    color: #28eb53;
+    background: none; }
+
+.container {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -300px; }
+
+.logo {
+  font-family: 'VT323', monospace;
+  font-weight: 100;
+  font-size: 4em;
+  letter-spacing: 10px;
+  color: #28eb53;
+  margin: 0; }
+
+.chevron {
+  position: absolute;
+  bottom: 10%;
+  margin: 0;
+  z-index: 1000; }
+
+footer {
+  background: #1A1A1A;
+  padding: 3%;
+  color: #aaa; }
+
+.content {
+  margin: 0 10% 0 10%; }
+
+.menu {
+  text-align: center;
+  background: #0DB893;
+  padding: 15px 0 15px 0;
+  text-transform: uppercase; }
+  .menu a {
+    margin: 0 3px 0 3px;
+    color: white;
+    text-decoration: none;
+    background: none; }
+    .menu a:hover {
+      color: #343939; }
+
+.line {
+  border: none;
+  border-top: 4px double #8c8b8b;
+  text-align: center; }
+
+.line:after {
+  font-family: 'FontAwesome';
+  content: '\f121';
+  display: inline-block;
+  position: relative;
+  top: -18px;
+  padding: 0 10px;
+  background: white;
+  color: #8c8b8b;
+  font-size: 18px; }
+
+footer {
+  font-size: .7em;
+  text-align: center; }
+  footer a {
+    color: #28eb53;
+    background: none; }
+
+.article-title {
+  color: #343939; }
+
+.blinking-cursor {
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite; }
+
+@keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: inherit; } }
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: inherit; } }
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: inherit; } }
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: inherit; } }
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent; }
+  50% {
+    color: inherit; } }
+
+#particles-js {
+  height: 100%;
+  display: block;
+  position: relative;
+  box-sizing: border-box; }

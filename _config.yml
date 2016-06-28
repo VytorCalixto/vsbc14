@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            VSBC14
+description:      'Estudante de Ciência da Computação'
+truerandom: 'Apenas ideias desconexas e frases postas pra fora que eventualmente formam textos.'
+url:              http://www.inf.ufpr.br
+baseurl:          /vsbc14/
+
+author:
+  name:           'Vytor Calixto'
+  url:            https://twitter.com/vytorcalixto
+  email:           vsbc14@inf.ufpr.br
+
+paginate:         5
+paginate_path: truerandom/page:num
+
+gems: [jekyll-paginate]

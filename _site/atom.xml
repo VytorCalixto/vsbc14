@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>VSBC14</title>
+ <link href="http://www.inf.ufpr.br/vsbc14/atom.xml" rel="self"/>
+ <link href="http://www.inf.ufpr.br/vsbc14/"/>
+ <updated>2016-06-27T23:27:28-03:00</updated>
+ <id>http://www.inf.ufpr.br/vsbc14/</id>
+ <author>
+   <name>Vytor Calixto</name>
+   <email>vsbc14@inf.ufpr.br</email>
+ </author>
+
+ 
+ <entry>
+   <title>Quero fazer um podcast</title>
+   <link href="http://www.inf.ufpr.br/2016/06/27/podcast/"/>
+   <updated>2016-06-27T00:00:00-03:00</updated>
+   <id>http://www.inf.ufpr.br/2016/06/27/podcast</id>
+   <content type="html">&lt;p&gt;Lendo algumas das respostas do formulário de avaliação do CEI, percebi que poucas
+pessoas (das que responderam) foram para o ciclo de apresentações dos laboratórios. Andei pensando em formas diferentes de como propagar esse conteúdo e ressurgiu na minha cabeça uma ideia antiga que tive
+para a gestão: fazer um podcast.&lt;/p&gt;
+
+&lt;p&gt;Uma das principais reclamações para a ausência nesses eventos era o horário em que
+eram realizados. Vamos concordar que o horário da 13h30 na sexta-feira é extremamente
+concorrido, com RG da Ecomp, monitoria, clubes e outras coisas. A opção é fazer mais tarde, na
+sexta-feira, depois das 19h, o que dá a garantia de que ninguém está mais em aula.
+Entretanto, é difícil atingir os alunos nos primeiros períodos neste horário.&lt;/p&gt;
+
+&lt;p&gt;Como outro fator, não considero os vídeos gravados dos ciclo de palestra do ano passado muito bons.
+A única câmera que há é estática, posicionado onde muitas pessoas passam na frente. O áudio
+também não tem muita qualidade e falta certa dinamicidade para o vídeo. Isso é algo que deve mudar
+(e rápido!) para a semana acadêmica (provavelmente fazendo umas palestras teste e procurando material
+apropriado para ter uma boa gravação).&lt;/p&gt;
+
+&lt;p&gt;Creio então que uma forma mais prática de divulgar o material das apresentações seja através de
+um podcast. O formato é bem controlado, tem um roteiro e é de fácil acesso. Muitos estudantes podem
+escutar em diferentes momentos da sua rotina, quando acharem melhor e mais confortável. Isso também
+tira certa preocupação da diretoria de eventos acadêmicos, que tem tempo para buscar peixes maiores
+para se apresentar.&lt;/p&gt;
+
+&lt;p&gt;Minha ideia é fazer um episódio piloto sobre Ciência da Computação no exterior com alunos que
+viajaram pelo CSF e convênio com a Unibral. Começando com alunos entrevistados, posso trazer um
+ar mais leve, de que o conteúdo é feito para estudantes do curso.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

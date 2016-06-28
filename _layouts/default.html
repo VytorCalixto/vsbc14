@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    {% include head.html %}
+
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="logo">{{page.title}}<span class="blinking-cursor">_</span></h1>
+            </div>
+            <a class="chevron" data-scroll href="#menu" data-options='{"easing": "easeInOutCubic"}'><i class="fa fa-chevron-down margin-vertical"></i></a>
+            <div id="particles-js"></div>
+        </header>
+        {% include nav.html %}
+        <div>
+            {{ content }}
+        </div>
+        {% include footer.html %}
+        <script>
+            smoothScroll.init();
+            particlesJS.load('particles-js', '/vsbc14/public/js/particles/particles.json', function() {
+              console.log('callback - particles.js config loaded');
+            });
+        </script>
+    </body>
+</html>

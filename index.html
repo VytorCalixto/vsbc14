@@ -1,76 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Vytor Calixto">
-    <meta name="description" content="Vytor Calixto é estudante de Ciência da Computação na UFPR.">
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+---
+layout: default
+title: VSBC14
+---
 
-    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="js/particles/particles.js"></script>
-    <title>VSBC14</title>
-</head>
-<body ng-controller="SiteCtrl">
-    <header>
-        <div class="container">
-            <h1 class="logo">VSBC14<span class="blinking-cursor">_</span></h1>
-        </div>
-        <a class="chevron" data-scroll href="#menu" data-options='{"easing": "easeInOutCubic"}'><i class="fa fa-chevron-down margin-vertical"></i></a>
-        <div id="particles-js"></div>
-    </header>
-    <nav id="menu" class="menu">
-        <a href="/vsbc14/">Início</a>
-        <a href="trabalhos.html">Trabalhos</a>
-        <a href="truerandom/">TrueRandom</a>
-    </nav>
-    <section class="content">
-        <article class="" id="sobre">
-            <h2 class="article-title">Sobre mim</h2>
-            <p>Meu nome é Vytor Calixto e sou estudante de Ciência da Computação na UFPR desde 2014,
-                formado como técnico em informática pelo IFPR em 2013. Moro na RMC desde 1997, mas nasci
-                em Juazeiro do Norte - CE. Atualmente trabalho no <a href="http://c3sl.ufpr.br">C3SL</a>
-                (desde 2016/1) e já trabalhei por dois anos no <a href="http://pet.inf.ufpr.br">PET
-                Computação UFPR</a>. Tenho interesse em democracia digital, inteligência
-                artificial e redes neurais. Também sou o atual presidente do
-                <a href="http://cei.inf.ufpr.br" target="_blank">CEI</a>.
-            </p>
-            <p>Adoro fotografia analógica, música (tenho uma "banda" que você pode ouvir <a href="http://open.spotify.com/artist/4QgIU2WnvxNiJAlOP29Ru2" target="_blank">aqui</a>) e andar de bicicleta. Tento escrever sempre que possível no <a href="/vsbc14/truerandom">TrueRandom</a>.</p>
-        </article>
-        <hr class="line">
-        <article class="">
-            <h2 class="article-title">Projetos</h2>
-            <p>Alguns projetos legais dos quais participo/participei.</p>
-            <ul>
-                <li><a href="https://gitlab.c3sl.ufpr.br/pet/farol">Farol</a> - Repositório Digital de Provas e Trabalhos: ainda em construção</li>
-                <li><a href="https://gitlab.c3sl.ufpr.br/pet/Geoloc">Geoloc</a> - Aplicativo mobile para localização dentro do Centro Politécnico (foi descontinuado)</li>
-                <li>Rebrand do site do <a href="http://pet.inf.ufpr.br">PET Computação UFPR</a></li>
-            </ul>
-        </article>
-        <hr class="line">
-        <article>
-            <h2 class="article-title">Contato</h2>
-            <p>Você pode me encontrar no <a href="telegram.me/vytorcalixto">Telegram</a> ou no e-mail <a href="mailto:vsbc14@inf.ufpr.br">vsbc14@inf.ufpr.br</a>.</p>
-        </article>
-        <hr class="line">
-    </section>
-    <footer class="text-center">
-        <nav class="links">
-            <a href="https://facebook.com/VytorCalixto" class="fa fa-facebook-official fa-lg"></a>
-            <a href="https://twitter.com/VytorCalixto" class="fa fa-twitter-square fa-lg"></a>
-            <a href="https://github.com/VytorCalixto" class="fa fa-github fa-lg"></a>
-            <a href="https://gitlab.c3sl.ufpr.br/u/vsbc14" class="fa fa-git-square fa-lg"></a>
-            <a href="https://medium.com/@vytorcalixto" class="fa fa-medium fa-lg"></a>
-            <a href="https://soundcloud.com/via-capital" class="fa fa-soundcloud fa-lg"></a>
-            <a href="https://play.spotify.com/artist/4QgIU2WnvxNiJAlOP29Ru2" class="fa fa-spotify fa-lg"></a>
-        </nav>
-        <p>Feito com <span class="fa" aria-hidden="true">&#xf004;</span> por Vytor Calixto</p>
-    </footer>
-    <script>
-        smoothScroll.init();
-        particlesJS.load('particles-js', 'js/particles/particles.json', function() {
-          console.log('callback - particles.js config loaded');
-        });
-    </script>
-</body>
-</html>
+<section class="content">
+    <article class="" id="sobre">
+        <h2 class="article-title">Sobre mim</h2>
+        <p>Meu nome é Vytor Calixto e sou estudante de Ciência da Computação na UFPR desde 2014,
+            formado como técnico em informática pelo IFPR em 2013. Moro na RMC desde 1997, mas nasci
+            em Juazeiro do Norte - CE. Atualmente trabalho no <a href="http://c3sl.ufpr.br">C3SL</a>
+            (desde 2016/1) e já trabalhei por dois anos no <a href="http://pet.inf.ufpr.br">PET
+            Computação UFPR</a>. Tenho interesse em democracia digital, inteligência
+            artificial e redes neurais. Também sou o atual presidente do
+            <a href="http://cei.inf.ufpr.br" target="_blank">CEI</a>.
+        </p>
+        <p>Adoro fotografia analógica, música (tenho uma "banda" que você pode ouvir <a href="http://open.spotify.com/artist/4QgIU2WnvxNiJAlOP29Ru2" target="_blank">aqui</a>) e andar de bicicleta. Tento escrever sempre que possível no <a href="/vsbc14/truerandom">TrueRandom</a>.</p>
+    </article>
+    <hr class="line">
+    <article class="">
+        <h2 class="article-title">Projetos</h2>
+        <p>Alguns projetos legais dos quais participo/participei.</p>
+        <ul>
+            <li><a href="https://gitlab.c3sl.ufpr.br/pet/farol">Farol</a> - Repositório Digital de Provas e Trabalhos: ainda em construção</li>
+            <li><a href="https://gitlab.c3sl.ufpr.br/pet/Geoloc">Geoloc</a> - Aplicativo mobile para localização dentro do Centro Politécnico (foi descontinuado)</li>
+            <li>Rebrand do site do <a href="http://pet.inf.ufpr.br">PET Computação UFPR</a></li>
+        </ul>
+    </article>
+    <hr class="line">
+    <article>
+        <h2 class="article-title">Contato</h2>
+        <p>Você pode me encontrar no <a href="telegram.me/vytorcalixto">Telegram</a> ou no e-mail <a href="mailto:vsbc14@inf.ufpr.br">vsbc14@inf.ufpr.br</a>.</p>
+    </article>
+    <hr class="line">
+</section>

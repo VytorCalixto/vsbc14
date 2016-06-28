@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>Supermercado Algoritmico - Relatório</title>
+  <link rel="stylesheet" href="../../bower_components/components-font-awesome/css/font-awesome.min.css">
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="css/mercado.css">
+</head>
+<body>
+  <ng-include src="'navbar.html'"></ng-include>
+  <ng-include src="'header-template.html'"></ng-include>
+  <section>
+    <article class="padding margin" id="relatorio">
+      <h2>Trabalho 2 - Sorteio de Brindes no Supermercado Algorítmico</h2>
+      <h1>Relatório</h1>
+
+      <p>Começamos o trabalho implementando o algoritmo de Pesquisa Sequencial e uma função para preencher o vetor randomicamente.</p>
+
+      <p>Em seguida, adaptamos o arquivo logger utilizado no trabalho anterior, transformando-o em uma biblioteca e possibilitando sua reutilização para facilitar os logs deste trabalho.</p>
+
+      <p>Para o segundo algoritmo de ordenação escolhemos o MergeSort, dentre os 6 algoritmos vistos em sala, por este ter um dos custos mais baixos em termo de comparações, independente dos casos.</p>
+
+      <p>Após a implementação do MergeSort decidimos separar as funções de ordenação e pesquisa em arquivos e bibliotecas diferentes, deixando o projeto mais modularizado.</p>
+
+      <p>O próximo algoritmo a ser implementado foi o da Pesquisa Binária, uma vez que era necessário ordenar o vetor para poder testar este algoritmo e agora isto já era possível devido ao MergeSort.</p>
+
+      <p>O QuickSort, com suas duas diferentes abordagens na escolha do pivô foi o último algoritmo a ser implementado, sendo realizada em seguida a criação do menu com as opções determinadas na descrição do trabalho e a função para calcular as médias das comparações.</p>
+
+      <p>Com todas as funções prontas começamos a realizar testes e corrigir erros na contagem de comparações dos algoritmos de busca e ordenação.</p>
+
+      <p>Por último, adicionamos as chamadas de funções do logger e criamos os arquivos de logs para o trabalho.</p>
+
+    </article>
+    <article class="padding margin" id="relatorio">
+      <h2>Trabalho 1 - Listas, Pilhas e Filas</h2>
+      <h1>Relatório</h1>
+
+      <p>Começamos o trabalho fazendo um esqueleto básico da main. Fizemos o TAD lista na implementação duplamente encadeada e a fila com alocação dinâmica.</p>
+
+      <p>Para facilitar os logs, decidimos fazer uma struct e uma série de funções para fazer isso e poupar trabalho.</p>
+
+      <p>
+        Por termos implementado a fila com alocação dinâmica, implementamos a pilha com alocação estática. No trabalho definimos o tamanho máximo como 25.
+      </p>
+
+      <p>
+        Com os TADs prontos, começamos as operaçõs do Sueprmercado Algoritmico. Entretanto, encontramos um problema ao ler os itens da lista ou os nomes dos clientes: a função scanf() não lê espaços! Imagine se um item da lista ou um cliente tivesse mais de um nome?
+      </p>
+
+      <p>
+        Para solucionar isso, implementamos a função lerString() que lê uma string com os espaços. Aproveitamos para deixar a alocação dinâmica da string, algo que o scanf() também não faz.
+      </p>
+
+      <p>
+        Com isso feito, prosseguimos fazendo as operaçõs do mercado, como adicionar um item a lista de compras, remover um item, adicionar um cliente, etc. Mas percebemos que a implementação da lista de compras seria muito mais simples utilizando alocação estática, principalmente para remover um item da mesma. Decidimos então mudar a implementação da lista.
+      </p>
+
+      <p>
+        Por último fizemos a função que entrega aos clientes da fila uma revista.
+      </p>
+
+      <p>
+        Após terminar tudo isso executamos testes, comentamos o código e melhoramos a experiência do usuário com mensagens significativas e cores.
+      </p>
+
+      <p>
+        Veja o histórico de commits do projeto <a href="src/alg2-trab1/commits.html">aqui</a>.
+      </p>
+    </article>
+  </section>
+</body>
+</html>
