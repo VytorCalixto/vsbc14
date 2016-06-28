@@ -15,12 +15,12 @@ gulp.task('sass', function(done) {
   gulp.src('./scss/vsbc.scss')
     .pipe(sass())
     .pipe(rename({basename: 'style'}))
-    .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./public/css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
     .pipe(rename({extname: '.min.css' }))
-    .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./public/css/'))
     .on('end', done);
 });
 
