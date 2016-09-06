@@ -1,6 +1,6 @@
 -
   name: "Supermercado Algorítmico"
-  html_url: "trabalhos/mercado"
+  html_url: "/trabalhos/mercado"
   description: "Trabalho 1 de Algoritmos e Estruturas de Dados II"
   year: "2014/2"
 -
@@ -65,6 +65,6 @@
   year: "2015/2"
 -
   name: "Neymar"
-  html_url: "trabalhos/neymar"
+  html_url: "/trabalhos/neymar"
   description: "Trabalho 1 de Redes II - Artilharia UDP"
   year: "2016/1"
