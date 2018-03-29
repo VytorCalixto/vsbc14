@@ -47,12 +47,10 @@ void teste(tnodo *nodos, int N, int i) {
     nodos[i].state[j] = 0;
 
     // Atualiza STATE
-    int k;
-    for (int k = 0; k < N; ++k) {
-        if(k != j && nodos[j].state[k] != -1) {
-            nodos[i].state[k] = nodos[j].state[k];
-        }
+    for (int k = ((j+1) % N); k != i; k = ((k+1) % N) ) {
+        nodos[i].state[k] = nodos[j].state[k];
     }
+    nodos[i].state[i] = nodos[j].state[i];
 
     imprimeState(nodos, N, i);
 }
@@ -86,12 +84,10 @@ int main(int argc, char* argv[]) {
     for(i = 0; i < N; ++i) {
         schedule(TEST, testInterval, i);
     }
-    schedule(FAULT, 15.0, 2);
-    schedule(FAULT, 15.0, 1);
-    schedule(REPAIR, 31.0, 1);
-    schedule(REPAIR, 62.0, 2);
+    schedule(FAULT, 10.0, 1);
+    schedule(FAULT, 10.0, 3);
 
-    while(time() <= (N*testInterval + 62.0)) {
+    while(time() <= (N*testInterval)) {
         cause(&event, &token);
         switch(event) {
             case TEST:
