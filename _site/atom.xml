@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>VSBC14</title>
- <link href="http://www.inf.ufpr.br/vsbc14/atom.xml" rel="self"/>
- <link href="http://www.inf.ufpr.br/vsbc14/"/>
- <updated>2016-09-05T22:30:04-03:00</updated>
- <id>http://www.inf.ufpr.br/vsbc14/</id>
+ <link href="http://www.inf.ufpr.br/atom.xml" rel="self"/>
+ <link href="http://www.inf.ufpr.br/"/>
+ <updated>2018-03-29T10:39:36-03:00</updated>
+ <id>http://www.inf.ufpr.br/</id>
  <author>
    <name>Vytor Calixto</name>
    <email>vsbc14@inf.ufpr.br</email>

@@ -68,3 +68,8 @@
   html_url: "/vsbc14/trabalhos/neymar"
   description: "Trabalho 1 de Redes II - Artilharia UDP"
   year: "2016/1"
+-
+  name: "ADSD"
+  html_url: "/vsbc14/trabalhos/adsd"
+  description: "Trabalho 1 de Sistemas Distribuídos - Adaptive-DSD"
+  year: "2018/1"

@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "components-font-awesome": "~4.3.0",
-    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~5.3.7"
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~5.3.7",
+    "angular": "^1.6.9"
   }
 }

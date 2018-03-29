@@ -11,7 +11,7 @@ title:            VSBC14
 description:      'Estudante de Ciência da Computação'
 truerandom: 'Apenas ideias desconexas e frases postas pra fora que eventualmente formam textos.'
 url:              http://www.inf.ufpr.br
-baseurl:          /vsbc14/
+baseurl:          /
 
 author:
   name:           'Vytor Calixto'

@@ -1,0 +1,101 @@
+O nodo 2 falhou no tempo  15.0
+O nodo 1 falhou no tempo  15.0
+O nodo 0 vai testar no tempo  30.0
+Nodo 0 irá testar o nodo 1
+	Nodo 1 está falho
+Nodo 0 irá testar o nodo 2
+	Nodo 2 está falho
+Nodo 0 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 1
+O nodo 1 recuperou no tempo  31.0
+O nodo 0 vai testar no tempo  60.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 1
+O nodo 1 vai testar no tempo  61.0
+Nodo 1 irá testar o nodo 2
+	Nodo 2 está falho
+Nodo 1 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 1
+O nodo 2 recuperou no tempo  62.0
+O nodo 0 vai testar no tempo  90.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 1
+O nodo 1 vai testar no tempo  91.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 2 vai testar no tempo  92.0
+Nodo 2 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 1
+O nodo 0 vai testar no tempo 120.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 1 vai testar no tempo 121.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 2 vai testar no tempo 122.0
+Nodo 2 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 0 vai testar no tempo 150.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 1 vai testar no tempo 151.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 2 vai testar no tempo 152.0
+Nodo 2 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+O nodo 0 vai testar no tempo 180.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0

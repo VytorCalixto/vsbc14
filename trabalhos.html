@@ -56,5 +56,18 @@ title: Trabalhos
             {% endfor %}
         </ul>
     </div>
+    <div class="half inline-block vertical-top">
+        <h2>2018/1</h2>
+        <ul>
+            {% for t in site.data.trabalhos %}
+            {% if t.year == '2018/1' %}
+            <li>
+                <a href="{{ t.html_url }}">{{ t.name }}</a>
+                - {{ t.description }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
     <hr class="line">
 </section>

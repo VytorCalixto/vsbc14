@@ -1,0 +1,2312 @@
+O nodo 7 falhou no tempo  15.0
+O nodo 0 vai testar no tempo  30.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo  30.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 2 vai testar no tempo  30.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 3 vai testar no tempo  30.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 4 vai testar no tempo  30.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 5 vai testar no tempo  30.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 6 vai testar no tempo  30.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 8 vai testar no tempo  30.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo  30.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo  60.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo  60.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 2 vai testar no tempo  60.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 3 vai testar no tempo  60.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 4 vai testar no tempo  60.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 5 vai testar no tempo  60.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 6 vai testar no tempo  60.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo  60.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo  60.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo  90.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo  90.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 2 vai testar no tempo  90.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 3 vai testar no tempo  90.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 4 vai testar no tempo  90.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 5 vai testar no tempo  90.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo  90.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo  90.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo  90.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo 120.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo 120.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 2 vai testar no tempo 120.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 3 vai testar no tempo 120.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 4 vai testar no tempo 120.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 120.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 120.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 120.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 120.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo 150.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo 150.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 2 vai testar no tempo 150.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 3 vai testar no tempo 150.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 150.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 150.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 150.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 150.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 150.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo 180.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 1 vai testar no tempo 180.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 2 vai testar no tempo 180.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 180.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 180.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 180.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 180.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 180.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 180.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: -1
+O nodo 0 vai testar no tempo 210.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 1 vai testar no tempo 210.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: -1
+	Nodo 1: -1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 210.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: -1
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 210.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 210.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: -1
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 210.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: -1
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 210.0
+Nodo 6 irá testar o nodo 7
+	Nodo 7 está falho
+Nodo 6 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 210.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: -1
+	Nodo 8: -1
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 210.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: -1
+O nodo 7 recuperou no tempo 239.0
+O nodo 0 vai testar no tempo 240.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 240.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 240.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 240.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 240.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 240.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 240.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: -1
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 240.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 240.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 269.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 270.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 270.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 270.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 270.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 270.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 270.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 270.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 270.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 270.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 299.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 300.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 300.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 300.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 300.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 300.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 300.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 300.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 300.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 300.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 329.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 330.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 330.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 330.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 330.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 330.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 330.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 330.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 330.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 330.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 359.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 360.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 360.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 360.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 360.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 360.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 360.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 360.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 360.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 360.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 389.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 390.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 390.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 390.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 390.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 390.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 390.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 390.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 390.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 390.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 419.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 420.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 420.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 420.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 420.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 420.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 420.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 420.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 420.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 420.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 449.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 1
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 450.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 450.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 450.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 450.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 450.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 450.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 450.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 450.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 450.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 479.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 480.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 480.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 480.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 480.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 480.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 480.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 480.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 480.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 480.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 509.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 510.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 1 vai testar no tempo 510.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 2 vai testar no tempo 510.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 3 vai testar no tempo 510.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 4 vai testar no tempo 510.0
+Nodo 4 irá testar o nodo 5
+	Node 5 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 5 vai testar no tempo 510.0
+Nodo 5 irá testar o nodo 6
+	Node 6 está não-falho
+STATE do nodo 5
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 6 vai testar no tempo 510.0
+Nodo 6 irá testar o nodo 7
+	Node 7 está não-falho
+STATE do nodo 6
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 8 vai testar no tempo 510.0
+Nodo 8 irá testar o nodo 9
+	Node 9 está não-falho
+STATE do nodo 8
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 9 vai testar no tempo 510.0
+Nodo 9 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 9
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 7 vai testar no tempo 539.0
+Nodo 7 irá testar o nodo 8
+	Node 8 está não-falho
+STATE do nodo 7
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
+O nodo 0 vai testar no tempo 540.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+	Nodo 5: 0
+	Nodo 6: 0
+	Nodo 7: 0
+	Nodo 8: 0
+	Nodo 9: 0
