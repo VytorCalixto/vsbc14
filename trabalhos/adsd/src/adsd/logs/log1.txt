@@ -43,7 +43,7 @@ STATE do nodo 4
 	Nodo 2: -1
 	Nodo 3: -1
 	Nodo 4: -1
-O nodo 1 falhou no tempo  31.0
+O nodo 1 falhou no tempo  30.0
 O nodo 0 vai testar no tempo  60.0
 Nodo 0 irá testar o nodo 1
 	Nodo 1 está falho
@@ -82,16 +82,17 @@ STATE do nodo 4
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: -1
-O nodo 1 recuperou no tempo  69.0
 O nodo 0 vai testar no tempo  90.0
 Nodo 0 irá testar o nodo 1
-	Node 1 está não-falho
+	Nodo 1 está falho
+Nodo 0 irá testar o nodo 2
+	Node 2 está não-falho
 STATE do nodo 0
 	Nodo 0: -1
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
-	Nodo 4: -1
+	Nodo 4: 0
 O nodo 2 vai testar no tempo  90.0
 Nodo 2 irá testar o nodo 3
 	Node 3 está não-falho
@@ -115,25 +116,18 @@ Nodo 4 irá testar o nodo 0
 	Node 0 está não-falho
 STATE do nodo 4
 	Nodo 0: 0
-	Nodo 1: 0
-	Nodo 2: 0
-	Nodo 3: 0
-	Nodo 4: -1
-O nodo 1 vai testar no tempo  99.0
-Nodo 1 irá testar o nodo 2
-	Node 2 está não-falho
-STATE do nodo 1
-	Nodo 0: 0
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
 O nodo 0 vai testar no tempo 120.0
 Nodo 0 irá testar o nodo 1
-	Node 1 está não-falho
+	Nodo 1 está falho
+Nodo 0 irá testar o nodo 2
+	Node 2 está não-falho
 STATE do nodo 0
 	Nodo 0: 0
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
@@ -151,7 +145,7 @@ Nodo 3 irá testar o nodo 4
 	Node 4 está não-falho
 STATE do nodo 3
 	Nodo 0: 0
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
@@ -160,34 +154,26 @@ Nodo 4 irá testar o nodo 0
 	Node 0 está não-falho
 STATE do nodo 4
 	Nodo 0: 0
-	Nodo 1: 0
-	Nodo 2: 0
-	Nodo 3: 0
-	Nodo 4: 0
-O nodo 1 vai testar no tempo 129.0
-Nodo 1 irá testar o nodo 2
-	Node 2 está não-falho
-STATE do nodo 1
-	Nodo 0: 0
 	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
+O nodo 1 recuperou no tempo 121.0
 O nodo 0 vai testar no tempo 150.0
 Nodo 0 irá testar o nodo 1
 	Node 1 está não-falho
 STATE do nodo 0
-	Nodo 0: 0
+	Nodo 0: -1
 	Nodo 1: 0
 	Nodo 2: 0
-	Nodo 3: 0
-	Nodo 4: 0
+	Nodo 3: -1
+	Nodo 4: -1
 O nodo 2 vai testar no tempo 150.0
 Nodo 2 irá testar o nodo 3
 	Node 3 está não-falho
 STATE do nodo 2
 	Nodo 0: 0
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
@@ -196,7 +182,7 @@ Nodo 3 irá testar o nodo 4
 	Node 4 está não-falho
 STATE do nodo 3
 	Nodo 0: 0
-	Nodo 1: 0
+	Nodo 1: 1
 	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
@@ -207,9 +193,144 @@ STATE do nodo 4
 	Nodo 0: 0
 	Nodo 1: 0
 	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: -1
+O nodo 1 vai testar no tempo 151.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
 	Nodo 3: 0
 	Nodo 4: 0
-O nodo 1 vai testar no tempo 159.0
+O nodo 0 vai testar no tempo 180.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 2 vai testar no tempo 180.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 3 vai testar no tempo 180.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: -1
+	Nodo 4: 0
+O nodo 4 vai testar no tempo 180.0
+Nodo 4 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 1 vai testar no tempo 181.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 0 vai testar no tempo 210.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 2 vai testar no tempo 210.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 3 vai testar no tempo 210.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 4 vai testar no tempo 210.0
+Nodo 4 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 1 vai testar no tempo 211.0
+Nodo 1 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 1
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 0 vai testar no tempo 240.0
+Nodo 0 irá testar o nodo 1
+	Node 1 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 2 vai testar no tempo 240.0
+Nodo 2 irá testar o nodo 3
+	Node 3 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 3 vai testar no tempo 240.0
+Nodo 3 irá testar o nodo 4
+	Node 4 está não-falho
+STATE do nodo 3
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 4 vai testar no tempo 240.0
+Nodo 4 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 4
+	Nodo 0: 0
+	Nodo 1: 0
+	Nodo 2: 0
+	Nodo 3: 0
+	Nodo 4: 0
+O nodo 1 vai testar no tempo 241.0
 Nodo 1 irá testar o nodo 2
 	Node 2 está não-falho
 STATE do nodo 1

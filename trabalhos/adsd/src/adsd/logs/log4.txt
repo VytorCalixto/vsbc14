@@ -1,0 +1,42 @@
+O nodo 1 falhou no tempo  10.0
+O nodo 3 falhou no tempo  10.0
+O nodo 0 vai testar no tempo  30.0
+Nodo 0 irá testar o nodo 1
+	Nodo 1 está falho
+Nodo 0 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 0
+	Nodo 0: -1
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: -1
+O nodo 2 vai testar no tempo  30.0
+Nodo 2 irá testar o nodo 3
+	Nodo 3 está falho
+Nodo 2 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: 1
+O nodo 0 vai testar no tempo  60.0
+Nodo 0 irá testar o nodo 1
+	Nodo 1 está falho
+Nodo 0 irá testar o nodo 2
+	Node 2 está não-falho
+STATE do nodo 0
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: 1
+O nodo 2 vai testar no tempo  60.0
+Nodo 2 irá testar o nodo 3
+	Nodo 3 está falho
+Nodo 2 irá testar o nodo 0
+	Node 0 está não-falho
+STATE do nodo 2
+	Nodo 0: 0
+	Nodo 1: 1
+	Nodo 2: 0
+	Nodo 3: 1
