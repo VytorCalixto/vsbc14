@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>VSBC14</title>
- <link href="http://www.inf.ufpr.br/vsbc14/atom.xml" rel="self"/>
- <link href="http://www.inf.ufpr.br/vsbc14/"/>
- <updated>2018-03-29T19:08:08-03:00</updated>
- <id>http://www.inf.ufpr.br/vsbc14/</id>
+ <link href="http://localhost:8080/vsbc14/atom.xml" rel="self"/>
+ <link href="http://localhost:8080/vsbc14/"/>
+ <updated>2018-05-24T21:20:46-03:00</updated>
+ <id>http://localhost:8080/vsbc14/</id>
  <author>
    <name>Vytor Calixto</name>
    <email>vsbc14@inf.ufpr.br</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Quero fazer um podcast</title>
-   <link href="http://www.inf.ufpr.br/2016/06/27/podcast/"/>
+   <link href="http://localhost:8080/2016/06/27/podcast/"/>
    <updated>2016-06-27T00:00:00-03:00</updated>
-   <id>http://www.inf.ufpr.br/2016/06/27/podcast</id>
+   <id>http://localhost:8080/2016/06/27/podcast</id>
    <content type="html">&lt;p&gt;Lendo algumas das respostas do formulário de avaliação do CEI, percebi que poucas
 pessoas (das que responderam) foram para o ciclo de apresentações dos laboratórios. Andei pensando em formas diferentes de como propagar esse conteúdo e ressurgiu na minha cabeça uma ideia antiga que tive
 para a gestão: fazer um podcast.&lt;/p&gt;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>VCUBE - Relatório</title>
+  <link rel="stylesheet" href="../../bower_components/components-font-awesome/css/font-awesome.min.css">
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="css/neymar.css">
+</head>
+<body>
+  <ng-include src="'navbar.html'"></ng-include>
+  <ng-include src="'header-template.html'"></ng-include>
+  <section>
+    <article class="padding margin" id="relatorio">
+      <h3>Relatório</h3>
+      <p>Para implementar o VCube, divide o trabalho nas seguintes partes:</p>
+      <ol>
+        <li>Implementar a função C<sub>i,s</sub></li>
+        <li>Identificar quais nodos serão testados por um nodo i</li>
+        <li>Atualizar a função de teste</li>
+        <li>Melhorar os logs</li>
+      </ol>
+      <p>Por praticidade, utilizei a função C<sub>i,s</sub> disponibilizada na página da disciplina e iniciei a implementação da identificação de quais nodos seriam testados. Para isso, alterei como o vetor STATE funciona e determinei que nodos não-falhos são inicializados com 0 no vetor. Para cada novo evento diagnosticado, o valor do nodo no vetor STATE seria acresentado uma unidade. Assim, poderia utilizar a paridade do valor como indicador do estado. Como nodos não falhos são inicializados em 0, quando um nodo não-falho falha, sua entrada no vetor STATE vai para 1. Quando este mesmo nodo recupera, sua entrada vai para 2. Logo, se a entrada de um nodo em STATE fosse par, este nodo está não-falho e, caso contrário, está falho.</p>
+      <p>Com essas informações, eu poderia obter quais seriam os nodos testados por um nodo i. Para isso, para cada nodo j eu fazia:</p>
+      <ol>
+        <li>Calculava C<sub>i,s</sub> de j em cada cluster</li>
+        <li>Pegava o primeiro nodo k do cluster</li>
+        <li>Se k está não-falho e não é o nodo i, passa para o próximo cluster (k é quem teste j neste cluster)</li>
+        <ul>
+          <li>Se k está não-falho e é o nodo i, marcamos que k é testado por i</li>
+          <li>Caso o nodo esteja falho, passo para o próximo nodo k no cluster e repete passo 3.</li>
+        </ul>
+        <li>Obtém a lista de nodos testados por i</li>
+      </ol>
+      <p>Com a lista, resta apenas testar os nodos. Dado o tempo, um nodo i testa todos os nodos da lista ao mesmo tempo e atualiza o vetor STATE. Para fazer a atualização, o nodo i compara se os valores do STATE do nodo testado são maiores que os valores no seu. Se um valor é maior, quer dizer que outro evento aconteceu e o nodo i deve atualizar seu STATE.</p>
+      <p>Com isso, toda a funcionalidade básica do VCube estava feita. Bastou apenas melhorar os logs do programa.</p>
+    </article>
+  </section>
+</body>
+</html>

@@ -73,3 +73,8 @@
   html_url: "/vsbc14/trabalhos/adsd"
   description: "Trabalho 1 de Sistemas Distribuídos - Adaptive-DSD"
   year: "2018/1"
+-
+  name: "VCUBE"
+  html_url: "/vsbc14/trabalhos/vcube"
+  description: "Trabalho 2 de Sistemas Distribuídos - VCUBE"
+  year: "2018/1"
